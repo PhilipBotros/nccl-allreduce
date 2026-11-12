@@ -1,0 +1,3 @@
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+ring_fused_b24,NVIDIA B200,8,1,16777216,100,335.8,331.5,339.8,49.955,87.421,ok
+ring.cu:253 ncclGroupEnd() -> unhandled cuda error (run with NCCL_DEBUG=INFO for details)

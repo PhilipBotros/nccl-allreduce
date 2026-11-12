@@ -1,0 +1,6 @@
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+ring_remote_b148,NVIDIA B200,8,1,16777216,100,754.9,740.1,800.1,22.223,38.891,ok
+ring_remote_b148,NVIDIA B200,8,1,67108864,20,749.5,740.8,765.0,89.540,156.695,ok
+ring_remote_b148,NVIDIA B200,8,1,268435456,20,1007.9,999.3,1018.5,266.324,466.067,ok
+ring_remote_b148,NVIDIA B200,8,1,1073741824,20,3034.5,3023.9,3066.1,353.846,619.231,ok
+# last error: no error

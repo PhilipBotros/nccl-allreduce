@@ -1,0 +1,36 @@
+[14:38:40] start
+[14:38:54] nccl at /usr/local/lib/python3.12/dist-packages/nvidia/nccl; LD_LIBRARY_PATH=/usr/local/lib/python3.12/dist-packages/nvidia/nccl/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64
+[14:39:07] built
+[14:39:07] run base_b24_u4
+[14:40:06] done base_b24_u4 (8 ok, 0 wrong)
+[14:40:07] run remote_b148
+[14:40:42] done remote_b148 (4 ok, 0 wrong)
+[14:40:42] run fused_b32_u4
+[14:41:17] done fused_b32_u4 (4 ok, 0 wrong)
+[14:41:17] run fused_b48_u4
+[14:41:51] done fused_b48_u4 (4 ok, 0 wrong)
+[14:41:52] run fused_b96_u4
+[14:42:28] done fused_b96_u4 (4 ok, 0 wrong)
+[14:42:28] run fused_b148_u4
+[14:43:04] done fused_b148_u4 (4 ok, 0 wrong)
+[14:43:04] run fused_b24_u8
+[14:43:40] done fused_b24_u8 (4 ok, 0 wrong)
+[14:43:40] run fused_b32_u8
+[14:44:16] done fused_b32_u8 (4 ok, 0 wrong)
+[14:44:16] run fused_b48_u8
+[14:44:51] done fused_b48_u8 (4 ok, 0 wrong)
+[14:44:52] run fused_b96_u8
+[14:45:27] done fused_b96_u8 (4 ok, 0 wrong)
+[14:45:27] run fused_b148_u8
+[14:46:02] done fused_b148_u8 (4 ok, 0 wrong)
+[14:46:02] run fused_b24_u16
+[14:46:38] done fused_b24_u16 (4 ok, 0 wrong)
+[14:46:38] run fused_b32_u16
+[14:47:13] done fused_b32_u16 (4 ok, 0 wrong)
+[14:47:14] run fused_b48_u16
+[14:47:49] done fused_b48_u16 (4 ok, 0 wrong)
+[14:47:49] run fused_b96_u16
+[14:48:25] done fused_b96_u16 (4 ok, 0 wrong)
+[14:48:25] run fused_b148_u16
+[14:49:00] done fused_b148_u16 (4 ok, 0 wrong)
+[14:49:00] all done

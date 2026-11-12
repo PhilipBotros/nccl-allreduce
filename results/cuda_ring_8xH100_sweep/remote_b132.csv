@@ -1,0 +1,6 @@
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+ring_remote_b132,NVIDIA H100 80GB HBM3,8,1,16777216,100,685.7,641.8,719.8,24.467,42.818,ok
+ring_remote_b132,NVIDIA H100 80GB HBM3,8,1,67108864,20,719.2,678.9,737.2,93.308,163.289,ok
+ring_remote_b132,NVIDIA H100 80GB HBM3,8,1,268435456,20,1553.4,1537.7,1572.3,172.810,302.417,ok
+ring_remote_b132,NVIDIA H100 80GB HBM3,8,1,1073741824,20,5446.3,5433.1,5465.1,197.150,345.012,ok
+# last error: no error

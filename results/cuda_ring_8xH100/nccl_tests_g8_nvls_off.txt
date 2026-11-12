@@ -1,0 +1,7 @@
+# nccl-tests version 2.21.1 (afd59ab) nccl-headers=23007 nccl-library=23007
+# Collective test starting: all_reduce_perf
+# nThread 1 nGpus 8 minBytes 4096 maxBytes 1073741824 step: 4(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+node: Test CUDA failure util.cu:772 'CUDA driver version is insufficient for CUDA runtime version'
+ .. node pid 1890: Test failure common.cu:1545

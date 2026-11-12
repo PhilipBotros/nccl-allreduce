@@ -1,0 +1,37 @@
+[14:19:05] start
+[14:19:46] link gen idle: 3 3 1 3 
+[14:19:58] built
+[14:19:58] run pair_01
+[14:20:30]   done pair_01 (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:20:30]   pair 0,1 256 MB: copy_sync 4.653 GB/s, remote 3.669 GB/s
+[14:20:30] run pair_02
+[14:20:51]   done pair_02 (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:20:51]   pair 0,2 256 MB: copy_sync 4.817 GB/s, remote 7.226 GB/s
+[14:20:51] run pair_03
+[14:21:13]   done pair_03 (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:21:13]   pair 0,3 256 MB: copy_sync 4.774 GB/s, remote 6.712 GB/s
+[14:21:13] run pair_12
+[14:21:34]   done pair_12 (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:21:35]   pair 1,2 256 MB: copy_sync 4.774 GB/s, remote 6.710 GB/s
+[14:21:35] run pair_13
+[14:21:56]   done pair_13 (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:21:56]   pair 1,3 256 MB: copy_sync 4.732 GB/s, remote 6.715 GB/s
+[14:21:57] run pair_23
+[14:22:28]   done pair_23 (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:22:28]   pair 2,3 256 MB: copy_sync 4.655 GB/s, remote 3.667 GB/s
+[14:22:28] run tri_012
+[14:23:41]   done tri_012 (8 ok, 0 wrong) NVIDIA L4 x3 of 3, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:23:41] run tri_013
+[14:24:53]   done tri_013 (8 ok, 0 wrong) NVIDIA L4 x3 of 3, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:24:53] run tri_023
+[14:26:07]   done tri_023 (8 ok, 0 wrong) NVIDIA L4 x3 of 3, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:26:07] run tri_123
+[14:27:21]   done tri_123 (8 ok, 0 wrong) NVIDIA L4 x3 of 3, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:27:21] run four_p2p
+[14:29:27]   done four_p2p (18 ok, 0 wrong) NVIDIA L4 x4 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:29:27] run four_nop2p
+[14:30:04]   done four_nop2p (9 ok, 0 wrong) NVIDIA L4 x4 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access disabled
+[14:30:04] run pair_01_rep2
+[14:30:35]   done pair_01_rep2 (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:30:36] link gen under load, distinct readings:       1 1 1 1 1 ;     12 1 1 3 3 ;      7 1 3 1 3 ;      8 1 3 3 1 ;     29 1 3 3 3 ;      7 3 1 1 3 ;      8 3 1 3 1 ;     28 3 1 3 3 ;     27 3 3 1 1 ;     25 3 3 1 3 ;     26 3 3 3 1 ;     64 3 3 3 3 ;
+[14:30:36] all done

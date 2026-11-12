@@ -1,0 +1,4 @@
+NVIDIA B200 x8, one process per GPU, buffers via CUDA IPC, fused ring 24x512, peer access on
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+nccl,NVIDIA B200,8,1,4096,100,79.6,75.2,90.1,0.051,0.090,ok
+nccl,NVIDIA B200,8,1,268435456,20,756.7,749.4,781.3,354.746,620.806,ok

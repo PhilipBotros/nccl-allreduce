@@ -1,0 +1,27 @@
+# nccl-tests version 2.21.1 (afd59ab) nccl-headers=23007 nccl-library=23007
+# Collective test starting: all_reduce_perf
+# nThread 1 nGpus 2 minBytes 4096 maxBytes 1073741824 step: 4(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid   5671 on node device  0 [0000:38:00] NVIDIA L4
+#  Rank  1 Group  0 Pid   5671 on node device  1 [0000:3a:00] NVIDIA L4
+#
+#                                                              out-of-place                       in-place
+#       size         count      type   redop    root     time   algbw   busbw  #wrong     time   algbw   busbw  #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)             (us)  (GB/s)  (GB/s)        
+        4096          1024     float     sum      -1    10.53    0.39    0.39       0    10.54    0.39    0.39       0
+       16384          4096     float     sum      -1    15.09    1.09    1.09       0    15.24    1.07    1.07       0
+       65536         16384     float     sum      -1    35.93    1.82    1.82       0    35.91    1.83    1.83       0
+      262144         65536     float     sum      -1    83.32    3.15    3.15       0    84.42    3.11    3.11       0
+     1048576        262144     float     sum      -1   270.94    3.87    3.87       0   268.01    3.91    3.91       0
+     4194304       1048576     float     sum      -1  1046.85    4.01    4.01       0  1026.25    4.09    4.09       0
+    16777216       4194304     float     sum      -1  3925.95    4.27    4.27       0  3896.47    4.31    4.31       0
+    67108864      16777216     float     sum      -1  16470.7    4.07    4.07       0  17132.4    3.92    3.92       0
+   268435456      67108864     float     sum      -1  73313.5    3.66    3.66       0  67839.0    3.96    3.96       0
+  1073741824     268435456     float     sum      -1   283484    3.79    3.79       0   282679    3.80    3.80       0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 3.02454 
+#
+# Collective test concluded: all_reduce_perf
+#
+

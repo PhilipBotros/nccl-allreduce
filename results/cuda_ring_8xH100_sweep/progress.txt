@@ -1,0 +1,34 @@
+[08:09:19] start
+[08:09:36] nccl at /usr/local/lib/python3.12/dist-packages/nvidia/nccl; LD_LIBRARY_PATH=/usr/local/lib/python3.12/dist-packages/nvidia/nccl/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64
+[08:09:51] built
+[08:09:51] run base_b24_u4
+[08:10:48] done base_b24_u4 (8 ok, 0 wrong)
+[08:10:48] run remote_b132
+[08:11:21] done remote_b132 (4 ok, 0 wrong)
+[08:11:21] run nccl_nvls_off
+[08:11:55] done nccl_nvls_off (4 ok, 0 wrong)
+[08:11:55] run fused_b32_u4
+[08:12:26] done fused_b32_u4 (4 ok, 0 wrong)
+[08:12:26] run fused_b48_u4
+[08:12:59] done fused_b48_u4 (4 ok, 0 wrong)
+[08:12:59] run fused_b96_u4
+[08:13:33] done fused_b96_u4 (4 ok, 0 wrong)
+[08:13:33] run fused_b132_u4
+[08:14:06] done fused_b132_u4 (4 ok, 0 wrong)
+[08:14:06] run fused_b24_u8
+[08:14:39] done fused_b24_u8 (4 ok, 0 wrong)
+[08:14:39] run fused_b32_u8
+[08:15:13] done fused_b32_u8 (4 ok, 0 wrong)
+[08:15:13] run fused_b48_u8
+[08:15:46] done fused_b48_u8 (4 ok, 0 wrong)
+[08:15:46] run fused_b96_u8
+[08:16:19] done fused_b96_u8 (4 ok, 0 wrong)
+[08:16:19] run fused_b132_u8
+[08:16:52] done fused_b132_u8 (4 ok, 0 wrong)
+[08:16:52] run fused_b24_u16
+[08:17:25] done fused_b24_u16 (0 ok, 4 wrong)
+[08:17:25] FATAL: fused_b24_u16 produced no results: ==> out_sweep1/fused_b24_u16.err <== NVIDIA H100 80GB HBM3 x8 of 8, 132 SMs, fused grid 24 x 512, unroll 16, peer access enabled  ==> out_sweep1/fused_b24_u16.csv <== impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status ring_fused_b24_u16,NVIDIA H100 80GB HBM3,8,1,16777216,100,23.6,23.5,25.5,711.925,1245.868,WRONG ring_fused_b24_u16,NVIDIA H100 80GB HBM3,8,1,67108864,20,23.0,22.9,23.6,2915.748,5102.560,WRONG ring_fused_b24_u16,NVIDI
+[08:17:27] start
+[08:17:41] nccl at /usr/local/lib/python3.12/dist-packages/nvidia/nccl; LD_LIBRARY_PATH=/usr/local/lib/python3.12/dist-packages/nvidia/nccl/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/local/cuda/lib64
+[08:17:52] built
+[08:17:52] run base_b24_u4

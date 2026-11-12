@@ -1,0 +1,27 @@
+[13:59:34] start
+[14:00:24] gpus: 4; topo: GPU0 X PHB PHB PHB 0-47 0 N/A
+[14:03:58] built
+[14:03:59] run ring_p2p_4
+[14:06:44]   done ring_p2p_4 (54 ok, 0 wrong) NVIDIA L4 x4 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:06:44] PEER ACCESS on all 4 GPUs: YES
+[14:06:44] run ring_nop2p_4
+[14:07:29]   done ring_nop2p_4 (27 ok, 0 wrong) NVIDIA L4 x4 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access disabled
+[14:07:29] run fused_vs_nccl_p4
+[14:08:14]   done fused_vs_nccl_p4 (18 ok, 0 wrong) NVIDIA L4 x4 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:08:25] nccl transport:       3 via SHM/direct 
+[14:08:26] run nccl_p2p_sys_p4
+[14:09:13]   done nccl_p2p_sys_p4 (9 ok, 0 wrong) NVIDIA L4 x4 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:09:13] run nccl_p2p_disable_p4
+[14:09:28]   done nccl_p2p_disable_p4 (9 ok, 0 wrong) NVIDIA L4 x4 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:09:28] run mp_4
+[14:11:28]   done mp_4 (36 ok, 0 wrong) NVIDIA L4 x4, one process per GPU, buffers via CUDA IPC, fused ring 24x512, peer access on
+[14:11:28] run allreduce_p2p
+[14:11:59]   done allreduce_p2p (90 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access enabled
+[14:12:00] run allreduce_nop2p
+[14:12:13]   done allreduce_nop2p (36 ok, 0 wrong) NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access disabled (copies sta
+[14:12:13] run ring_p2p_2
+[14:12:59]   done ring_p2p_2 (54 ok, 0 wrong) NVIDIA L4 x2 of 4, 58 SMs, fused grid 24 x 512, unroll 4, peer access enabled
+[14:13:00] run mp_2
+[14:13:30]   done mp_2 (36 ok, 0 wrong) NVIDIA L4 x2, one process per GPU, buffers via CUDA IPC, fused ring 24x512, peer access on
+[14:13:30] run nccl-tests
+[14:14:18] all done

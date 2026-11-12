@@ -1,0 +1,24 @@
+# nccl-tests version 2.21.1 (afd59ab) nccl-headers=23007 nccl-library=23007
+# Collective test starting: all_reduce_perf
+# nThread 1 nGpus 8 minBytes 1073741824 maxBytes 1073741824 step: 1048576(bytes) warmup iters: 1 iters: 2 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid   3714 on node device  0 [0000:8f:00] NVIDIA B200
+#  Rank  1 Group  0 Pid   3714 on node device  1 [0000:90:00] NVIDIA B200
+#  Rank  2 Group  0 Pid   3714 on node device  2 [0000:96:00] NVIDIA B200
+#  Rank  3 Group  0 Pid   3714 on node device  3 [0000:97:00] NVIDIA B200
+#  Rank  4 Group  0 Pid   3714 on node device  4 [0000:c4:00] NVIDIA B200
+#  Rank  5 Group  0 Pid   3714 on node device  5 [0000:c5:00] NVIDIA B200
+#  Rank  6 Group  0 Pid   3714 on node device  6 [0000:cb:00] NVIDIA B200
+#  Rank  7 Group  0 Pid   3714 on node device  7 [0000:cc:00] NVIDIA B200
+#
+#                                                              out-of-place                       in-place
+#       size         count      type   redop    root     time   algbw   busbw  #wrong     time   algbw   busbw  #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)             (us)  (GB/s)  (GB/s)        
+  1073741824     268435456     float     sum      -1  2859.07  375.56  657.22       0  2826.28  379.91  664.85       0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 661.036 
+#
+# Collective test concluded: all_reduce_perf
+#
+

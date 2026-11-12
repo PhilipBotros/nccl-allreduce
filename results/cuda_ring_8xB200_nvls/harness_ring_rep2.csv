@@ -1,0 +1,4 @@
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+nccl,NVIDIA B200,8,1,268435456,20,809.4,795.3,821.6,331.655,580.396,ok
+nccl,NVIDIA B200,8,1,1073741824,20,2878.0,2850.2,2963.5,373.086,652.901,ok
+# last error: no error

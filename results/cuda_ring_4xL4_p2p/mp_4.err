@@ -1,0 +1,1 @@
+NVIDIA L4 x4, one process per GPU, buffers via CUDA IPC, fused ring 24x512, peer access on

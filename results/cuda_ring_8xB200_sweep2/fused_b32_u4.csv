@@ -1,0 +1,6 @@
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+ring_fused_b32,NVIDIA B200,8,1,16777216,100,236.9,231.5,243.0,70.818,123.931,ok
+ring_fused_b32,NVIDIA B200,8,1,67108864,20,444.2,439.6,448.6,151.079,264.388,ok
+ring_fused_b32,NVIDIA B200,8,1,268435456,20,1271.6,1269.9,1276.6,211.098,369.422,ok
+ring_fused_b32,NVIDIA B200,8,1,1073741824,20,4852.2,4848.9,4860.5,221.288,387.254,ok
+# last error: no error

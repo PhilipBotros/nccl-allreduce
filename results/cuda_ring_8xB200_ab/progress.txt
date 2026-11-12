@@ -1,0 +1,13 @@
+[14:59:10] start
+[14:59:33] built
+[14:59:33] run orig_b24_rep1
+[14:59:45] done orig_b24_rep1 (1 ok, 0 wrong)
+[14:59:46] run new_b24_rep1
+[15:00:21] done new_b24_rep1 (4 ok, 0 wrong)
+[15:00:21] run orig_b24_rep2
+[15:01:22] done orig_b24_rep2 (8 ok, 0 wrong)
+[15:01:22] run new_b24_rep2
+[15:01:58] done new_b24_rep2 (4 ok, 0 wrong)
+[15:01:58] run orig_b148
+[15:02:33] done orig_b148 (4 ok, 0 wrong)
+[15:02:34] all done

@@ -1,0 +1,60 @@
+      8 [0] NCCL INFO AllReduce: 1073741824 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..15}
+      1 [7] NCCL INFO graph/rings.cc:33 (ncclBuildRings) Host Calloc Size 8 pointer 0x7c4b5e5d0eb0
+      1 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] -1/-1/-1->7->6 [2] -1/-1/-1->7->6 [3] -1/-1/-1->7->6 [4] -1/-1/-1->7->6 [5] -1/-1/-1->7->6 [6] -1/-1/-1->7->6 [7] -1/-1/-1->7->6 [8] -1/-1/-1->7->6 [9] -1/-1/-1->7->6 [10] -1/-1/-1->7->6 [11] -1/-1/-1->7->6 [12] -1/-1/-1->7->6 [13] -1/-1/-1->7->6 [14] -1/-1/-1->7->6 [15] -1/-1/-1->7->6
+      1 [7] NCCL INFO Ring 15 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 14 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 13 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 12 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 11 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 10 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 09 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 08 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 07 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 06 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 05 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 04 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 03 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 02 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 01 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 00 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Pattern 5, crossNic 0, nChannels 8, bw 80.000000/90.000000, type NVL/PIX, sameChannels 0
+      1 [7] NCCL INFO Pattern 4, crossNic 0, nChannels 16, bw 45.000000/45.000000, type NVL/PIX, sameChannels 1
+      1 [7] NCCL INFO Pattern 1, crossNic 0, nChannels 16, bw 45.000000/45.000000, type NVL/PIX, sameChannels 1
+      1 [7] NCCL INFO NVLS tuning: nChannels 16 chunkSize 524288 treeMaxChunkSize 524288
+      1 [7] NCCL INFO NVLS rank 7 (dev 7) alloc done, ucptr 0xc460000000 ucgran 2097152 mcptr 0xc620000000 mcgran 536870912 ucsize 1073741824 mcsize 1073741824 (inputsize 1073741824)
+      1 [7] NCCL INFO NVLS rank 7 (dev 7) alloc done, ucptr 0x7c4cb6000000 ucgran 2097152 mcptr 0x7c4cb6a00000 mcgran 2097152 ucsize 2097152 mcsize 2097152 (inputsize 16384)
+      1 [7] NCCL INFO NVLS multicast support is available on dev 7
+      1 [7] NCCL INFO NVLS importing shareableHandle 0x7c4c2b680660 from rank 0
+      1 [7] NCCL INFO NVLS importing shareableHandle 0x7c4c2b67ffc0 from rank 0
+      1 [7] NCCL INFO NVLS comm 0x5c01dd3f5170 headRank 7 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 134217728 nvlsTotalSize 1073741824
+      1 [7] NCCL INFO NVLS Unmap mem UC handle 0x7c4c031a1a20(0xc460000000) ucsize 1073741824 MC handle 0x7c4c01a055c0(0xc620000000) mcsize 1073741824
+      1 [7] NCCL INFO NVLS Unmap mem UC handle 0x7c4a942cf360(0x7c4cb6000000) ucsize 2097152 MC handle 0x7c4a942ced90(0x7c4cb6a00000) mcsize 2097152
+      1 [7] NCCL INFO NVLS Unbind MC handle 7c4c01a055c0 size 1073741824 dev 7
+      1 [7] NCCL INFO NVLS Unbind MC handle 7c4a942ced90 size 2097152 dev 7
+      1 [7] NCCL INFO NCCL_ALGO set by environment to NVLS
+      1 [7] NCCL INFO Comm config maxCTAs reset to NCCL_MAX_CTAS=16
+      1 [6] NCCL INFO graph/rings.cc:33 (ncclBuildRings) Host Calloc Size 8 pointer 0x7c4b0a38fd30
+      1 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/-1/-1->6->5 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/-1/-1->6->5 [7] 7/-1/-1->6->5 [8] 7/-1/-1->6->5 [9] 7/-1/-1->6->5 [10] 7/-1/-1->6->5 [11] 7/-1/-1->6->5 [12] 7/-1/-1->6->5 [13] 7/-1/-1->6->5 [14] 7/-1/-1->6->5 [15] 7/-1/-1->6->5
+      1 [6] NCCL INFO Ring 15 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 14 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 13 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 12 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 11 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 10 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 09 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 08 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 07 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 06 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 05 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 04 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 03 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 02 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 01 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 00 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Pattern 5, crossNic 0, nChannels 8, bw 80.000000/90.000000, type NVL/PIX, sameChannels 0
+      1 [6] NCCL INFO Pattern 4, crossNic 0, nChannels 16, bw 45.000000/45.000000, type NVL/PIX, sameChannels 1
+      1 [6] NCCL INFO Pattern 1, crossNic 0, nChannels 16, bw 45.000000/45.000000, type NVL/PIX, sameChannels 1
+      1 [6] NCCL INFO NVLS tuning: nChannels 16 chunkSize 524288 treeMaxChunkSize 524288
+      1 [6] NCCL INFO NVLS rank 6 (dev 6) alloc done, ucptr 0xc420000000 ucgran 2097152 mcptr 0xc660000000 mcgran 536870912 ucsize 1073741824 mcsize 1073741824 (inputsize 1073741824)
+      1 [6] NCCL INFO NVLS rank 6 (dev 6) alloc done, ucptr 0x7c4cb5a00000 ucgran 2097152 mcptr 0x7c4cb7000000 mcgran 2097152 ucsize 2097152 mcsize 2097152 (inputsize 16384)
+      1 [6] NCCL INFO NVLS multicast support is available on dev 6

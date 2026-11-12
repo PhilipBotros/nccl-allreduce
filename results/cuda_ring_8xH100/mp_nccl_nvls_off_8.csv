@@ -1,0 +1,8 @@
+rank 0 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version
+rank 1 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version
+rank 3 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version
+rank 2 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version
+rank 4 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version
+rank 5 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version
+rank 6 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version
+rank 7 ring_mp.cu:136 cudaSetDevice(rank) -> CUDA driver version is insufficient for CUDA runtime version

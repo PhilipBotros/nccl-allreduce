@@ -1,0 +1,1 @@
+NVIDIA L4 x2, 58 SMs, full grid 348 blocks, can access peer 0->1: 1, 1->0: 1, peer access disabled (copies stage through host)

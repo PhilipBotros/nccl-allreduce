@@ -1,0 +1,42 @@
+[23:48:43] FATAL: NCCL failed: 
+[23:48:55] start
+[23:49:33] start
+[23:50:01] built
+[23:50:30] nccl config: NCCL_NET_PLUGIN=none NCCL_IB_DISABLE=1 NCCL_SOCKET_IFNAME=lo NCCL_NET=Socket
+[23:51:25] nccl debug: 18 files
+[23:51:25] run ring_default_p8
+[23:54:10] done ring_default_p8 (60 ok, 0 wrong)
+[23:54:11] run ring_b24_t512_p8
+[23:56:51] done ring_b24_t512_p8 (60 ok, 0 wrong)
+[23:56:51] run ring_b24_t512_scalar
+[23:59:32] done ring_b24_t512_scalar (60 ok, 0 wrong)
+[23:59:32] run fused_vs_nccl_p8
+[00:00:32] done fused_vs_nccl_p8 (20 ok, 0 wrong)
+[00:00:32] run fused_vs_nccl_p4
+[00:01:07] done fused_vs_nccl_p4 (20 ok, 0 wrong)
+[00:01:07] run fused_vs_nccl_p2
+[00:01:29] done fused_vs_nccl_p2 (20 ok, 0 wrong)
+[00:01:30] run nccl_nvls_off_p8
+[00:02:05] done nccl_nvls_off_p8 (10 ok, 0 wrong)
+[00:02:06] run nccl_algo_ring_p8
+[00:02:42] done nccl_algo_ring_p8 (10 ok, 0 wrong)
+[00:02:42] run nccl_algo_tree_p8
+[00:03:18] done nccl_algo_tree_p8 (10 ok, 0 wrong)
+[00:03:18] run nccl_algo_nvls_p8
+[00:03:54] done nccl_algo_nvls_p8 (10 ok, 0 wrong)
+[00:03:55] run mpd_8
+[00:05:26] done mpd_8 (30 ok, 0 wrong)
+[00:05:26] run auto_8
+[00:06:38] done auto_8 (20 ok, 0 wrong)
+[00:06:39] run mpd_4
+[00:07:22] done mpd_4 (30 ok, 0 wrong)
+[00:07:23] run auto_4
+[00:07:57] done auto_4 (20 ok, 0 wrong)
+[00:07:58] run mpd_2
+[00:08:24] done mpd_2 (30 ok, 0 wrong)
+[00:08:24] run auto_2
+[00:08:45] done auto_2 (20 ok, 0 wrong)
+[00:08:45] run mp_nccl_nvls_off_8
+[00:09:41] done mp_nccl_nvls_off_8 (10 ok, 0 wrong)
+[00:09:41] nccl-tests build
+[00:10:40] ALL_DONE

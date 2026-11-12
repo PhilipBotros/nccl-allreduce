@@ -1,0 +1,2 @@
+NVIDIA B200 x8 of 8, peer access enabled
+ring.cu:314 ncclCommInitAll(comm, P, devs.data()) -> invalid usage (run with NCCL_DEBUG=WARN for details)

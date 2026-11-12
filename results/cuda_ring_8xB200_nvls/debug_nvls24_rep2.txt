@@ -1,0 +1,60 @@
+      8 [0] NCCL INFO AllReduce: 1073741824 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+      1 [7] NCCL INFO graph/rings.cc:33 (ncclBuildRings) Host Calloc Size 8 pointer 0x7b499a397700
+      1 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] -1/-1/-1->7->6 [2] -1/-1/-1->7->6 [3] -1/-1/-1->7->6 [4] -1/-1/-1->7->6 [5] -1/-1/-1->7->6 [6] -1/-1/-1->7->6 [7] -1/-1/-1->7->6 [8] -1/-1/-1->7->6 [9] -1/-1/-1->7->6 [10] -1/-1/-1->7->6 [11] -1/-1/-1->7->6 [12] -1/-1/-1->7->6 [13] -1/-1/-1->7->6 [14] -1/-1/-1->7->6 [15] -1/-1/-1->7->6 [16] -1/-1/-1->7->6 [17] -1/-1/-1->7->6 [18] -1/-1/-1->7->6 [19] -1/-1/-1->7->6 [20] -1/-1/-1->7->6 [21] -1/-1/-1->7->6 [22] -1/-1/-1->7->6 [23] -1/-1/-1->7->6 [24] -1/-1/-1->7->6 [25] -1/-1/-1->7->6 [26] -1/-1/-1->7->6 [27] -1/-1/-1->7->6 [28] -1/-1/-1->7->6 [29] -1/-1/-1->7->6 [30] -1/-1/-1->7->6 [31] -1/-1/-1->7->6
+      1 [7] NCCL INFO Ring 31 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 30 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 29 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 28 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 27 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 26 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 25 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 24 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 23 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 22 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 21 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 20 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 19 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 18 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 17 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 16 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 15 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 14 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 13 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 12 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 11 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 10 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 09 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 08 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 07 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 06 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 05 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 04 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 03 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 02 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 01 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Ring 00 : 6 -> 7 -> 0
+      1 [7] NCCL INFO Pattern 5, crossNic 0, nChannels 8, bw 80.000000/90.000000, type NVL/PIX, sameChannels 0
+      1 [7] NCCL INFO Pattern 4, crossNic 0, nChannels 16, bw 45.000000/45.000000, type NVL/PIX, sameChannels 1
+      1 [7] NCCL INFO Pattern 1, crossNic 0, nChannels 16, bw 45.000000/45.000000, type NVL/PIX, sameChannels 1
+      1 [7] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+      1 [7] NCCL INFO NVLS rank 7 (dev 7) alloc done, ucptr 0xc540000000 ucgran 2097152 mcptr 0xc5a0000000 mcgran 536870912 ucsize 1610612736 mcsize 1610612736 (inputsize 1610612736)
+      1 [7] NCCL INFO NVLS rank 7 (dev 7) alloc done, ucptr 0x7b4bf5c00000 ucgran 2097152 mcptr 0x7b4bf6000000 mcgran 2097152 ucsize 2097152 mcsize 2097152 (inputsize 24576)
+      1 [7] NCCL INFO NVLS multicast support is available on dev 7
+      1 [7] NCCL INFO NVLS importing shareableHandle 0x7b4b891d5660 from rank 0
+      1 [7] NCCL INFO NVLS importing shareableHandle 0x7b4afd3f3fc0 from rank 0
+      1 [7] NCCL INFO NVLS comm 0x5a13c8a7cb50 headRank 7 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+      1 [7] NCCL INFO NVLS Unmap mem UC handle 0x7b4a8e70a980(0xc540000000) ucsize 1610612736 MC handle 0x7b4ae85ebd70(0xc5a0000000) mcsize 1610612736
+      1 [7] NCCL INFO NVLS Unmap mem UC handle 0x7b48f0070de0(0x7b4bf5c00000) ucsize 2097152 MC handle 0x7b48f0070810(0x7b4bf6000000) mcsize 2097152
+      1 [7] NCCL INFO NVLS Unbind MC handle 7b4ae85ebd70 size 1610612736 dev 7
+      1 [7] NCCL INFO NVLS Unbind MC handle 7b48f0070810 size 2097152 dev 7
+      1 [7] NCCL INFO NCCL_ALGO set by environment to NVLS
+      1 [6] NCCL INFO graph/rings.cc:33 (ncclBuildRings) Host Calloc Size 8 pointer 0x7b49ea30a310
+      1 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/-1/-1->6->5 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/-1/-1->6->5 [7] 7/-1/-1->6->5 [8] 7/-1/-1->6->5 [9] 7/-1/-1->6->5 [10] 7/-1/-1->6->5 [11] 7/-1/-1->6->5 [12] 7/-1/-1->6->5 [13] 7/-1/-1->6->5 [14] 7/-1/-1->6->5 [15] 7/-1/-1->6->5 [16] 7/-1/-1->6->5 [17] 7/-1/-1->6->5 [18] 7/-1/-1->6->5 [19] 7/-1/-1->6->5 [20] 7/-1/-1->6->5 [21] 7/-1/-1->6->5 [22] 7/-1/-1->6->5 [23] 7/-1/-1->6->5 [24] 7/-1/-1->6->5 [25] 7/-1/-1->6->5 [26] 7/-1/-1->6->5 [27] 7/-1/-1->6->5 [28] 7/-1/-1->6->5 [29] 7/-1/-1->6->5 [30] 7/-1/-1->6->5 [31] 7/-1/-1->6->5
+      1 [6] NCCL INFO Ring 31 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 30 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 29 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 28 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 27 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 26 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 25 : 5 -> 6 -> 7
+      1 [6] NCCL INFO Ring 24 : 5 -> 6 -> 7

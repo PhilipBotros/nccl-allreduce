@@ -1,0 +1,11 @@
+NVIDIA-SMI couldn't find libnvidia-ml.so library in your system. Please make sure that the NVIDIA Display Driver is properly installed and present in your system.
+Please also try adding directory that contains libnvidia-ml.so to your system PATH.
+NVIDIA-SMI couldn't find libnvidia-ml.so library in your system. Please make sure that the NVIDIA Display Driver is properly installed and present in your system.
+Please also try adding directory that contains libnvidia-ml.so to your system PATH.
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2025 NVIDIA Corporation
+Built on Wed_Aug_20_01:58:59_PM_PDT_2025
+Cuda compilation tools, release 13.0, V13.0.88
+Build cuda_13.0.r13.0/compiler.36424714_0
+CPU(s):                                  208
+nccl pip 2.30.7 at /opt/venv/lib/python3.12/site-packages/nvidia/nccl
