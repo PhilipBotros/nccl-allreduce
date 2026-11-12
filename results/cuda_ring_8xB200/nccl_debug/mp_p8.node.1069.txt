@@ -1,0 +1,84 @@
+node:1069:1069 [6] NCCL INFO ncclOsDlopen(libnccl-env.so) failed: libnccl-env.so: cannot open shared object file: No such file or directory
+node:1069:1069 [6] NCCL INFO ENV/Plugin: Could not find: libnccl-env.so
+node:1069:1069 [6] NCCL INFO cudaDriverVersion 13000
+node:1069:1069 [6] NCCL INFO NCCL version 2.30.7+cuda13.3
+node:1069:1069 [6] NCCL INFO NCCL git version HEAD a5187fa2e
+node:1069:1069 [6] NCCL INFO NET/Socket : Using [0]lo:127.0.0.1<0>
+node:1069:1069 [6] NCCL INFO Initialized NET plugin Socket
+node:1069:1069 [6] NCCL INFO Assigned NET plugin Socket to comm
+node:1069:1069 [6] NCCL INFO ncclOsDlopen(libnccl-rma.so) failed: libnccl-rma.so: cannot open shared object file: No such file or directory
+node:1069:1069 [6] NCCL INFO RMA/Plugin: Could not find: libnccl-rma.so
+node:1069:1069 [6] NCCL INFO RMA/Plugin: Failed to load external plugin libnccl-rma.so, dlHandle: (nil), ncclRma: (nil)
+node:1069:1069 [6] NCCL INFO transport/net_ib/gin.cc:77 (ncclGinIbInitType) -> 3
+node:1069:1069 [6] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1069:1069 [6] NCCL INFO ncclOsDlopen(libnccl-gin.so) failed: libnccl-gin.so: cannot open shared object file: No such file or directory
+node:1069:1069 [6] NCCL INFO GIN/Plugin: Could not find: libnccl-gin.so
+node:1069:1069 [6] NCCL INFO GIN/Plugin: Failed to load external plugin libnccl-gin.so, dlHandle: (nil), ncclGin: (nil)
+node:1069:1069 [6] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1069:1069 [6] NCCL INFO Using network Socket
+node:1069:1069 [6] NCCL INFO Loaded NVML from libnvidia-ml.so.1
+node:1069:1069 [6] NCCL INFO [Rank 6] ncclCommInitRank comm 0x5bfca5bc5480 rank 6 nranks 8 cudaDev 6 nvmlDev 6 busId cb000 commId 0x6d80918d4693de36 - Init START
+node:1069:1069 [6] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+node:1069:1069 [6] NCCL INFO MNNVL busId 0xcb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1069:1069 [6] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 6 is 56-111,168-223. (GPU affinity = 56-111,168-223 ; CPU affinity = 0-223).
+node:1069:1069 [6] NCCL INFO NVLS multicast support is available on dev 6
+node:1069:1069 [6] NCCL INFO Rank 6: 1 Net devices
+node:1069:1069 [6] NCCL INFO Rank 6: 0 CollNet devices
+node:1069:1069 [6] NCCL INFO comm 0x5bfca5bc5480 rank 6 nRanks 8 nNodes 1 localRanks 8 localRank 6 MNNVL 0
+node:1069:1069 [6] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1069:1069 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/-1/-1->6->5 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/-1/-1->6->5 [7] 7/-1/-1->6->5 [8] 7/-1/-1->6->5 [9] 7/-1/-1->6->5 [10] 7/-1/-1->6->5 [11] 7/-1/-1->6->5 [12] 7/-1/-1->6->5 [13] 7/-1/-1->6->5 [14] 7/-1/-1->6->5 [15] 7/-1/-1->6->5 [16] 7/-1/-1->6->5 [17] 7/-1/-1->6->5 [18] 7/-1/-1->6->5 [19] 7/-1/-1->6->5 [20] 7/-1/-1->6->5 [21] 7/-1/-1->6->5 [22] 7/-1/-1->6->5 [23] 7/-1/-1->6->5 [24] 7/-1/-1->6->5 [25] 7/-1/-1->6->5 [26] 7/-1/-1->6->5 [27] 7/-1/-1->6->5 [28] 7/-1/-1->6->5 [29] 7/-1/-1->6->5 [30] 7/-1/-1->6->5 [31] 7/-1/-1->6->5
+node:1069:1069 [6] NCCL INFO P2P Chunksize set to 524288
+node:1069:1069 [6] NCCL INFO ncclOsDlsym(ncclProfiler_v6) failed: /usr/local/nvidia/lib64/libnccl-profiler.so: undefined symbol: ncclProfiler_v6
+node:1069:1069 [6] NCCL INFO ncclOsDlsym(ncclProfiler_v5) failed: /usr/local/nvidia/lib64/libnccl-profiler.so: undefined symbol: ncclProfiler_v5
+node:1069:1069 [6] NCCL INFO ncclOsDlsym(ncclProfiler_v4) failed: /usr/local/nvidia/lib64/libnccl-profiler.so: undefined symbol: ncclProfiler_v4
+node:1069:1069 [6] NCCL INFO Successfully loaded external profiler plugin /usr/local/nvidia/lib64/libnccl-profiler.so
+node:1069:1069 [6] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1069:1069 [6] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 0 isAllCudaP2p 1
+node:1069:1172 [0] NCCL INFO [Proxy Service] Device 6 CPU core 171
+node:1069:1172 [6] NCCL INFO proxy listening socket at 127.0.0.1<46023>
+node:1069:1181 [0] NCCL INFO [Proxy Service UDS] Device 6 CPU core 172
+node:1069:1069 [6] NCCL INFO ncclOsDlsym(ncclTunerPlugin_v5) failed: /usr/local/nvidia/lib64/libnccl-tuner.so: undefined symbol: ncclTunerPlugin_v5
+node:1069:1069 [6] NCCL INFO ncclOsDlsym(ncclTunerPlugin_v4) failed: /usr/local/nvidia/lib64/libnccl-tuner.so: undefined symbol: ncclTunerPlugin_v4
+node:1069:1069 [6] NCCL INFO ncclOsDlsym(ncclTunerPlugin_v3) failed: /usr/local/nvidia/lib64/libnccl-tuner.so: undefined symbol: ncclTunerPlugin_v3
+node:1069:1069 [6] NCCL INFO TUNER/Plugin: Using A3xTunerPlugin_v2 (v2)
+node:1069:1069 [6] NCCL INFO Successfully loaded external tuner plugin /usr/local/nvidia/lib64/libnccl-tuner.so
+node:1069:1069 [6] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1069:1069 [6] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1069:1069 [6] NCCL INFO ncclCommInitRank comm 0x5bfca5bc5480 rank 6 nranks 8 cudaDev 6 nvmlDev 6 busId cb000 commId 0x6d80918d4693de36 - Init COMPLETE
+node:1069:1069 [6] NCCL INFO Init timings - ncclCommInitRank: rank 6 nranks 8 total 2.66 (kernels 0.49, alloc 0.52, bootstrap 0.06, allgathers 0.00, topo 1.10, graphs 0.02, connections 0.47, rest 0.01)
+node:1069:1069 [6] NCCL INFO Symmetric VA size=180GB
+node:1069:1069 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 07/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 08/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 09/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 10/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 11/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 12/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 13/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 14/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 15/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 16/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 17/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 18/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 19/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 20/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 21/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 22/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 23/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 24/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 25/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 26/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 27/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 28/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 29/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 30/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Channel 31/0 : 6[6] -> 7[7] via P2P/CUMEM
+node:1069:1069 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1069:1069 [6] NCCL INFO NVLS comm 0x5bfca5bc5480 headRank 6 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1069:1069 [6] NCCL INFO TUNER/Plugin: Closing tuner: 'A3xTunerPlugin_v2'

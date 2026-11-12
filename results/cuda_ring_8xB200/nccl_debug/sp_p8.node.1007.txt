@@ -1,0 +1,685 @@
+node:1007:1007 [7] NCCL INFO ncclOsDlopen(libnccl-env.so) failed: libnccl-env.so: cannot open shared object file: No such file or directory
+node:1007:1007 [7] NCCL INFO ENV/Plugin: Could not find: libnccl-env.so
+node:1007:1007 [7] NCCL INFO cudaDriverVersion 13000
+node:1007:1007 [0] NCCL INFO NCCL version 2.30.7+cuda13.3
+node:1007:1007 [0] NCCL INFO NCCL git version HEAD a5187fa2e
+node:1007:1022 [4] NCCL INFO NET/Socket : Using [0]lo:127.0.0.1<0>
+node:1007:1022 [4] NCCL INFO Initialized NET plugin Socket
+node:1007:1022 [4] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1020 [2] NCCL INFO Initialized NET plugin Socket
+node:1007:1020 [2] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1019 [1] NCCL INFO Initialized NET plugin Socket
+node:1007:1019 [1] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1018 [0] NCCL INFO Initialized NET plugin Socket
+node:1007:1018 [0] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1025 [7] NCCL INFO Initialized NET plugin Socket
+node:1007:1025 [7] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1023 [5] NCCL INFO Initialized NET plugin Socket
+node:1007:1022 [4] NCCL INFO ncclOsDlopen(libnccl-rma.so) failed: libnccl-rma.so: cannot open shared object file: No such file or directory
+node:1007:1022 [4] NCCL INFO RMA/Plugin: Could not find: libnccl-rma.so
+node:1007:1022 [4] NCCL INFO RMA/Plugin: Failed to load external plugin libnccl-rma.so, dlHandle: (nil), ncclRma: (nil)
+node:1007:1022 [4] NCCL INFO transport/net_ib/gin.cc:77 (ncclGinIbInitType) -> 3
+node:1007:1022 [4] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1023 [5] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1020 [2] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1021 [3] NCCL INFO Initialized NET plugin Socket
+node:1007:1019 [1] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1021 [3] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1018 [0] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1022 [4] NCCL INFO ncclOsDlopen(libnccl-gin.so) failed: libnccl-gin.so: cannot open shared object file: No such file or directory
+node:1007:1022 [4] NCCL INFO GIN/Plugin: Could not find: libnccl-gin.so
+node:1007:1022 [4] NCCL INFO GIN/Plugin: Failed to load external plugin libnccl-gin.so, dlHandle: (nil), ncclGin: (nil)
+node:1007:1022 [4] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1022 [4] NCCL INFO Using network Socket
+node:1007:1024 [6] NCCL INFO Initialized NET plugin Socket
+node:1007:1025 [7] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1020 [2] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1020 [2] NCCL INFO Using network Socket
+node:1007:1023 [5] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1024 [6] NCCL INFO Assigned NET plugin Socket to comm
+node:1007:1019 [1] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1019 [1] NCCL INFO Using network Socket
+node:1007:1022 [4] NCCL INFO Loaded NVML from libnvidia-ml.so.1
+node:1007:1021 [3] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1018 [0] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1018 [0] NCCL INFO Using network Socket
+node:1007:1025 [7] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1025 [7] NCCL INFO Using network Socket
+node:1007:1024 [6] NCCL INFO RMA/Plugin: Failed to initialize any plugin
+node:1007:1023 [5] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1023 [5] NCCL INFO Using network Socket
+node:1007:1021 [3] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1021 [3] NCCL INFO Using network Socket
+node:1007:1024 [6] NCCL INFO GIN/Plugin: Failed to initialize any GIN plugin
+node:1007:1024 [6] NCCL INFO Using network Socket
+node:1007:1022 [4] NCCL INFO [Rank 4] ncclCommInitAll comm 0x5a43f47f74d0 rank 4 nranks 8 cudaDev 4 nvmlDev 4 busId c4000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1018 [0] NCCL INFO [Rank 0] ncclCommInitAll comm 0x5a43f434f010 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 8f000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1019 [1] NCCL INFO [Rank 1] ncclCommInitAll comm 0x5a43f44747f0 rank 1 nranks 8 cudaDev 1 nvmlDev 1 busId 90000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1020 [2] NCCL INFO [Rank 2] ncclCommInitAll comm 0x5a43f459ff70 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId 96000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1025 [7] NCCL INFO [Rank 7] ncclCommInitAll comm 0x5a43f4b7a5f0 rank 7 nranks 8 cudaDev 7 nvmlDev 7 busId cc000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1023 [5] NCCL INFO [Rank 5] ncclCommInitAll comm 0x5a43f4922fc0 rank 5 nranks 8 cudaDev 5 nvmlDev 5 busId c5000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1021 [3] NCCL INFO [Rank 3] ncclCommInitAll comm 0x5a43f46cba00 rank 3 nranks 8 cudaDev 3 nvmlDev 3 busId 97000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1024 [6] NCCL INFO [Rank 6] ncclCommInitAll comm 0x5a43f4a4eab0 rank 6 nranks 8 cudaDev 6 nvmlDev 6 busId cb000 commId 0x61d54b711e8008f5 - Init START
+node:1007:1019 [1] NCCL INFO RAS client listening socket at 127.0.0.1<28028>
+node:1007:1018 [0] NCCL INFO MNNVL busId 0x8f000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1025 [7] NCCL INFO MNNVL busId 0xcc000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1019 [1] NCCL INFO MNNVL busId 0x90000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1024 [6] NCCL INFO MNNVL busId 0xcb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1020 [2] NCCL INFO MNNVL busId 0x96000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1022 [4] NCCL INFO MNNVL busId 0xc4000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1023 [5] NCCL INFO MNNVL busId 0xc5000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1021 [3] NCCL INFO MNNVL busId 0x97000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x80
+node:1007:1018 [0] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 0 is 0-55,112-167. (GPU affinity = 0-55,112-167 ; CPU affinity = 0-223).
+node:1007:1018 [0] NCCL INFO NVLS multicast support is available on dev 0
+node:1007:1025 [7] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 7 is 56-111,168-223. (GPU affinity = 56-111,168-223 ; CPU affinity = 0-223).
+node:1007:1025 [7] NCCL INFO NVLS multicast support is available on dev 7
+node:1007:1024 [6] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 6 is 56-111,168-223. (GPU affinity = 56-111,168-223 ; CPU affinity = 0-223).
+node:1007:1024 [6] NCCL INFO NVLS multicast support is available on dev 6
+node:1007:1019 [1] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 1 is 0-55,112-167. (GPU affinity = 0-55,112-167 ; CPU affinity = 0-223).
+node:1007:1019 [1] NCCL INFO NVLS multicast support is available on dev 1
+node:1007:1022 [4] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 4 is 56-111,168-223. (GPU affinity = 56-111,168-223 ; CPU affinity = 0-223).
+node:1007:1022 [4] NCCL INFO NVLS multicast support is available on dev 4
+node:1007:1023 [5] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 5 is 56-111,168-223. (GPU affinity = 56-111,168-223 ; CPU affinity = 0-223).
+node:1007:1023 [5] NCCL INFO NVLS multicast support is available on dev 5
+node:1007:1021 [3] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 3 is 0-55,112-167. (GPU affinity = 0-55,112-167 ; CPU affinity = 0-223).
+node:1007:1021 [3] NCCL INFO NVLS multicast support is available on dev 3
+node:1007:1018 [0] NCCL INFO Rank 0: 1 Net devices
+node:1007:1018 [0] NCCL INFO Rank 0: 0 CollNet devices
+node:1007:1020 [2] NCCL INFO ncclTopoGetCpuAffinity: Affinity for GPU 2 is 0-55,112-167. (GPU affinity = 0-55,112-167 ; CPU affinity = 0-223).
+node:1007:1020 [2] NCCL INFO NVLS multicast support is available on dev 2
+node:1007:1025 [7] NCCL INFO Rank 7: 1 Net devices
+node:1007:1025 [7] NCCL INFO Rank 7: 0 CollNet devices
+node:1007:1024 [6] NCCL INFO Rank 6: 1 Net devices
+node:1007:1024 [6] NCCL INFO Rank 6: 0 CollNet devices
+node:1007:1019 [1] NCCL INFO Rank 1: 1 Net devices
+node:1007:1019 [1] NCCL INFO Rank 1: 0 CollNet devices
+node:1007:1022 [4] NCCL INFO Rank 4: 1 Net devices
+node:1007:1022 [4] NCCL INFO Rank 4: 0 CollNet devices
+node:1007:1021 [3] NCCL INFO Rank 3: 1 Net devices
+node:1007:1021 [3] NCCL INFO Rank 3: 0 CollNet devices
+node:1007:1023 [5] NCCL INFO Rank 5: 1 Net devices
+node:1007:1023 [5] NCCL INFO Rank 5: 0 CollNet devices
+node:1007:1020 [2] NCCL INFO Rank 2: 1 Net devices
+node:1007:1020 [2] NCCL INFO Rank 2: 0 CollNet devices
+node:1007:1019 [1] NCCL INFO comm 0x5a43f44747f0 rank 1 nRanks 8 nNodes 1 localRanks 8 localRank 1 MNNVL 0
+node:1007:1019 [1] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1020 [2] NCCL INFO comm 0x5a43f459ff70 rank 2 nRanks 8 nNodes 1 localRanks 8 localRank 2 MNNVL 0
+node:1007:1020 [2] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1020 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/-1/-1->2->1 [3] 3/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->1 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1 [8] 3/-1/-1->2->1 [9] 3/-1/-1->2->1 [10] 3/-1/-1->2->1 [11] 3/-1/-1->2->1 [12] 3/-1/-1->2->1 [13] 3/-1/-1->2->1 [14] 3/-1/-1->2->1 [15] 3/-1/-1->2->1 [16] 3/-1/-1->2->1 [17] 3/-1/-1->2->1 [18] 3/-1/-1->2->1 [19] 3/-1/-1->2->1 [20] 3/-1/-1->2->1 [21] 3/-1/-1->2->1 [22] 3/-1/-1->2->1 [23] 3/-1/-1->2->1 [24] 3/-1/-1->2->1 [25] 3/-1/-1->2->1 [26] 3/-1/-1->2->1 [27] 3/-1/-1->2->1 [28] 3/-1/-1->2->1 [29] 3/-1/-1->2->1 [30] 3/-1/-1->2->1 [31] 3/-1/-1->2->1
+node:1007:1020 [2] NCCL INFO P2P Chunksize set to 524288
+node:1007:1023 [5] NCCL INFO comm 0x5a43f4922fc0 rank 5 nRanks 8 nNodes 1 localRanks 8 localRank 5 MNNVL 0
+node:1007:1023 [5] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1022 [4] NCCL INFO comm 0x5a43f47f74d0 rank 4 nRanks 8 nNodes 1 localRanks 8 localRank 4 MNNVL 0
+node:1007:1018 [0] NCCL INFO Local Net device counts across ranks: min 1 max 1
+node:1007:1018 [0] NCCL INFO Local CollNet device counts across ranks: min 0 max 0
+node:1007:1018 [0] NCCL INFO comm 0x5a43f434f010 rank 0 nRanks 8 nNodes 1 localRanks 8 localRank 0 MNNVL 0
+node:1007:1018 [0] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1018 [0] NCCL INFO Channel 00/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 01/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 02/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 03/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 04/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 05/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 06/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 07/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 08/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 09/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 10/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 11/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 12/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 13/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 14/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 15/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 16/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 17/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 18/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 19/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 20/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 21/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 22/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 23/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 24/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 25/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 26/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 27/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 28/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 29/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 30/32 : 0 1 2 3 4 5 6 7
+node:1007:1018 [0] NCCL INFO Channel 31/32 : 0 1 2 3 4 5 6 7
+node:1007:1024 [6] NCCL INFO comm 0x5a43f4a4eab0 rank 6 nRanks 8 nNodes 1 localRanks 8 localRank 6 MNNVL 0
+node:1007:1024 [6] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1021 [3] NCCL INFO comm 0x5a43f46cba00 rank 3 nRanks 8 nNodes 1 localRanks 8 localRank 3 MNNVL 0
+node:1007:1021 [3] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1022 [4] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1020 [2] NCCL INFO ncclOsDlsym(ncclProfiler_v6) failed: /usr/local/nvidia/lib64/libnccl-profiler.so: undefined symbol: ncclProfiler_v6
+node:1007:1019 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/-1/-1->1->0 [2] 2/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] 2/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0 [8] 2/-1/-1->1->0 [9] 2/-1/-1->1->0 [10] 2/-1/-1->1->0 [11] 2/-1/-1->1->0 [12] 2/-1/-1->1->0 [13] 2/-1/-1->1->0 [14] 2/-1/-1->1->0 [15] 2/-1/-1->1->0 [16] 2/-1/-1->1->0 [17] 2/-1/-1->1->0 [18] 2/-1/-1->1->0 [19] 2/-1/-1->1->0 [20] 2/-1/-1->1->0 [21] 2/-1/-1->1->0 [22] 2/-1/-1->1->0 [23] 2/-1/-1->1->0 [24] 2/-1/-1->1->0 [25] 2/-1/-1->1->0 [26] 2/-1/-1->1->0 [27] 2/-1/-1->1->0 [28] 2/-1/-1->1->0 [29] 2/-1/-1->1->0 [30] 2/-1/-1->1->0 [31] 2/-1/-1->1->0
+node:1007:1019 [1] NCCL INFO P2P Chunksize set to 524288
+node:1007:1025 [7] NCCL INFO comm 0x5a43f4b7a5f0 rank 7 nRanks 8 nNodes 1 localRanks 8 localRank 7 MNNVL 0
+node:1007:1025 [7] NCCL INFO NVLS tuning: nChannels 24 chunkSize 524288 treeMaxChunkSize 524288
+node:1007:1023 [5] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4 [2] 6/-1/-1->5->4 [3] 6/-1/-1->5->4 [4] 6/-1/-1->5->4 [5] 6/-1/-1->5->4 [6] 6/-1/-1->5->4 [7] 6/-1/-1->5->4 [8] 6/-1/-1->5->4 [9] 6/-1/-1->5->4 [10] 6/-1/-1->5->4 [11] 6/-1/-1->5->4 [12] 6/-1/-1->5->4 [13] 6/-1/-1->5->4 [14] 6/-1/-1->5->4 [15] 6/-1/-1->5->4 [16] 6/-1/-1->5->4 [17] 6/-1/-1->5->4 [18] 6/-1/-1->5->4 [19] 6/-1/-1->5->4 [20] 6/-1/-1->5->4 [21] 6/-1/-1->5->4 [22] 6/-1/-1->5->4 [23] 6/-1/-1->5->4 [24] 6/-1/-1->5->4 [25] 6/-1/-1->5->4 [26] 6/-1/-1->5->4 [27] 6/-1/-1->5->4 [28] 6/-1/-1->5->4 [29] 6/-1/-1->5->4 [30] 6/-1/-1->5->4 [31] 6/-1/-1->5->4
+node:1007:1023 [5] NCCL INFO P2P Chunksize set to 524288
+node:1007:1022 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/-1/-1->4->3 [3] 5/-1/-1->4->3 [4] 5/-1/-1->4->3 [5] 5/-1/-1->4->3 [6] 5/-1/-1->4->3 [7] 5/-1/-1->4->3 [8] 5/-1/-1->4->3 [9] 5/-1/-1->4->3 [10] 5/-1/-1->4->3 [11] 5/-1/-1->4->3 [12] 5/-1/-1->4->3 [13] 5/-1/-1->4->3 [14] 5/-1/-1->4->3 [15] 5/-1/-1->4->3 [16] 5/-1/-1->4->3 [17] 5/-1/-1->4->3 [18] 5/-1/-1->4->3 [19] 5/-1/-1->4->3 [20] 5/-1/-1->4->3 [21] 5/-1/-1->4->3 [22] 5/-1/-1->4->3 [23] 5/-1/-1->4->3 [24] 5/-1/-1->4->3 [25] 5/-1/-1->4->3 [26] 5/-1/-1->4->3 [27] 5/-1/-1->4->3 [28] 5/-1/-1->4->3 [29] 5/-1/-1->4->3 [30] 5/-1/-1->4->3 [31] 5/-1/-1->4->3
+node:1007:1022 [4] NCCL INFO P2P Chunksize set to 524288
+node:1007:1018 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] 1/-1/-1->0->-1 [2] 1/-1/-1->0->-1 [3] 1/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] 1/-1/-1->0->-1 [6] 1/-1/-1->0->-1 [7] 1/-1/-1->0->-1 [8] 1/-1/-1->0->-1 [9] 1/-1/-1->0->-1 [10] 1/-1/-1->0->-1 [11] 1/-1/-1->0->-1 [12] 1/-1/-1->0->-1 [13] 1/-1/-1->0->-1 [14] 1/-1/-1->0->-1 [15] 1/-1/-1->0->-1 [16] 1/-1/-1->0->-1 [17] 1/-1/-1->0->-1 [18] 1/-1/-1->0->-1 [19] 1/-1/-1->0->-1 [20] 1/-1/-1->0->-1 [21] 1/-1/-1->0->-1 [22] 1/-1/-1->0->-1 [23] 1/-1/-1->0->-1 [24] 1/-1/-1->0->-1 [25] 1/-1/-1->0->-1 [26] 1/-1/-1->0->-1 [27] 1/-1/-1->0->-1 [28] 1/-1/-1->0->-1 [29] 1/-1/-1->0->-1 [30] 1/-1/-1->0->-1 [31] 1/-1/-1->0->-1
+node:1007:1018 [0] NCCL INFO P2P Chunksize set to 524288
+node:1007:1025 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] -1/-1/-1->7->6 [2] -1/-1/-1->7->6 [3] -1/-1/-1->7->6 [4] -1/-1/-1->7->6 [5] -1/-1/-1->7->6 [6] -1/-1/-1->7->6 [7] -1/-1/-1->7->6 [8] -1/-1/-1->7->6 [9] -1/-1/-1->7->6 [10] -1/-1/-1->7->6 [11] -1/-1/-1->7->6 [12] -1/-1/-1->7->6 [13] -1/-1/-1->7->6 [14] -1/-1/-1->7->6 [15] -1/-1/-1->7->6 [16] -1/-1/-1->7->6 [17] -1/-1/-1->7->6 [18] -1/-1/-1->7->6 [19] -1/-1/-1->7->6 [20] -1/-1/-1->7->6 [21] -1/-1/-1->7->6 [22] -1/-1/-1->7->6 [23] -1/-1/-1->7->6 [24] -1/-1/-1->7->6 [25] -1/-1/-1->7->6 [26] -1/-1/-1->7->6 [27] -1/-1/-1->7->6 [28] -1/-1/-1->7->6 [29] -1/-1/-1->7->6 [30] -1/-1/-1->7->6 [31] -1/-1/-1->7->6
+node:1007:1025 [7] NCCL INFO P2P Chunksize set to 524288
+node:1007:1020 [2] NCCL INFO ncclOsDlsym(ncclProfiler_v5) failed: /usr/local/nvidia/lib64/libnccl-profiler.so: undefined symbol: ncclProfiler_v5
+node:1007:1020 [2] NCCL INFO ncclOsDlsym(ncclProfiler_v4) failed: /usr/local/nvidia/lib64/libnccl-profiler.so: undefined symbol: ncclProfiler_v4
+node:1007:1020 [2] NCCL INFO Successfully loaded external profiler plugin /usr/local/nvidia/lib64/libnccl-profiler.so
+node:1007:1021 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] 4/-1/-1->3->2 [3] 4/-1/-1->3->2 [4] 4/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] 4/-1/-1->3->2 [7] 4/-1/-1->3->2 [8] 4/-1/-1->3->2 [9] 4/-1/-1->3->2 [10] 4/-1/-1->3->2 [11] 4/-1/-1->3->2 [12] 4/-1/-1->3->2 [13] 4/-1/-1->3->2 [14] 4/-1/-1->3->2 [15] 4/-1/-1->3->2 [16] 4/-1/-1->3->2 [17] 4/-1/-1->3->2 [18] 4/-1/-1->3->2 [19] 4/-1/-1->3->2 [20] 4/-1/-1->3->2 [21] 4/-1/-1->3->2 [22] 4/-1/-1->3->2 [23] 4/-1/-1->3->2 [24] 4/-1/-1->3->2 [25] 4/-1/-1->3->2 [26] 4/-1/-1->3->2 [27] 4/-1/-1->3->2 [28] 4/-1/-1->3->2 [29] 4/-1/-1->3->2 [30] 4/-1/-1->3->2 [31] 4/-1/-1->3->2
+node:1007:1021 [3] NCCL INFO P2P Chunksize set to 524288
+node:1007:1024 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/-1/-1->6->5 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/-1/-1->6->5 [7] 7/-1/-1->6->5 [8] 7/-1/-1->6->5 [9] 7/-1/-1->6->5 [10] 7/-1/-1->6->5 [11] 7/-1/-1->6->5 [12] 7/-1/-1->6->5 [13] 7/-1/-1->6->5 [14] 7/-1/-1->6->5 [15] 7/-1/-1->6->5 [16] 7/-1/-1->6->5 [17] 7/-1/-1->6->5 [18] 7/-1/-1->6->5 [19] 7/-1/-1->6->5 [20] 7/-1/-1->6->5 [21] 7/-1/-1->6->5 [22] 7/-1/-1->6->5 [23] 7/-1/-1->6->5 [24] 7/-1/-1->6->5 [25] 7/-1/-1->6->5 [26] 7/-1/-1->6->5 [27] 7/-1/-1->6->5 [28] 7/-1/-1->6->5 [29] 7/-1/-1->6->5 [30] 7/-1/-1->6->5 [31] 7/-1/-1->6->5
+node:1007:1024 [6] NCCL INFO P2P Chunksize set to 524288
+node:1007:1020 [2] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1021 [3] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1021 [3] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1023 [5] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1023 [5] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1025 [7] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1025 [7] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1020 [2] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1030 [0] NCCL INFO [Proxy Service] Device 3 CPU core 131
+node:1007:1035 [0] NCCL INFO [Proxy Service UDS] Device 7 CPU core 174
+node:1007:1022 [4] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1022 [4] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1032 [0] NCCL INFO [Proxy Service] Device 5 CPU core 180
+node:1007:1033 [0] NCCL INFO [Proxy Service UDS] Device 5 CPU core 183
+node:1007:1037 [0] NCCL INFO [Proxy Service UDS] Device 2 CPU core 10
+node:1007:1031 [0] NCCL INFO [Proxy Service UDS] Device 3 CPU core 20
+node:1007:1024 [6] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1024 [6] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1018 [0] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1018 [0] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1019 [1] NCCL INFO Profiler event mask: 0xf (15) - Enabled: Group Coll P2p ProxyOp 
+node:1007:1019 [1] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 1 isAllCudaP2p 1
+node:1007:1032 [5] NCCL INFO proxy listening socket at 127.0.0.1<37669>
+node:1007:1038 [0] NCCL INFO [Proxy Service] Device 4 CPU core 81
+node:1007:1043 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 134
+node:1007:1034 [0] NCCL INFO [Proxy Service] Device 7 CPU core 170
+node:1007:1030 [3] NCCL INFO proxy listening socket at 127.0.0.1<56325>
+node:1007:1040 [0] NCCL INFO [Proxy Service] Device 6 CPU core 206
+node:1007:1041 [0] NCCL INFO [Proxy Service UDS] Device 6 CPU core 101
+node:1007:1036 [0] NCCL INFO [Proxy Service] Device 2 CPU core 9
+node:1007:1044 [0] NCCL INFO [Proxy Service] Device 1 CPU core 136
+node:1007:1042 [0] NCCL INFO [Proxy Service] Device 0 CPU core 130
+node:1007:1039 [0] NCCL INFO [Proxy Service UDS] Device 4 CPU core 195
+node:1007:1038 [4] NCCL INFO proxy listening socket at 127.0.0.1<46233>
+node:1007:1045 [0] NCCL INFO [Proxy Service UDS] Device 1 CPU core 25
+node:1007:1034 [7] NCCL INFO proxy listening socket at 127.0.0.1<38205>
+node:1007:1040 [6] NCCL INFO proxy listening socket at 127.0.0.1<34617>
+node:1007:1036 [2] NCCL INFO proxy listening socket at 127.0.0.1<32843>
+node:1007:1044 [1] NCCL INFO proxy listening socket at 127.0.0.1<38843>
+node:1007:1042 [0] NCCL INFO proxy listening socket at 127.0.0.1<59727>
+node:1007:1020 [2] NCCL INFO ncclOsDlsym(ncclTunerPlugin_v5) failed: /usr/local/nvidia/lib64/libnccl-tuner.so: undefined symbol: ncclTunerPlugin_v5
+node:1007:1020 [2] NCCL INFO ncclOsDlsym(ncclTunerPlugin_v4) failed: /usr/local/nvidia/lib64/libnccl-tuner.so: undefined symbol: ncclTunerPlugin_v4
+node:1007:1020 [2] NCCL INFO ncclOsDlsym(ncclTunerPlugin_v3) failed: /usr/local/nvidia/lib64/libnccl-tuner.so: undefined symbol: ncclTunerPlugin_v3
+node:1007:1020 [2] NCCL INFO TUNER/Plugin: Using A3xTunerPlugin_v2 (v2)
+node:1007:1020 [2] NCCL INFO Successfully loaded external tuner plugin /usr/local/nvidia/lib64/libnccl-tuner.so
+node:1007:1020 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1020 [2] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1022 [4] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1022 [4] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1021 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1021 [3] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1025 [7] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1025 [7] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1018 [0] NCCL INFO   Algorithm   |                            Tree                  |                            Ring                  |                   CollNetDirect                  |
+node:1007:1018 [0] NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+node:1007:1018 [0] NCCL INFO  Max NThreads |            512 |            640 |            512 |            512 |            640 |            512 |              0 |              0 |            640 |
+node:1007:1018 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     7.2/ 282.0 |    15.9/ 640.0 |    11.8/ 720.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     7.2/ 282.0 |    15.9/ 640.0 |    11.8/ 720.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    10.8/ 322.3 |    27.3/ 731.4 |    32.2/ 822.9 |     5.6/   0.0 |     5.6/   0.0 |    44.0/   0.0 |
+node:1007:1018 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    10.8/ 322.3 |    27.3/ 731.4 |    32.2/ 822.9 |     5.6/   0.0 |     5.6/   0.0 |    44.0/   0.0 |
+node:1007:1018 [0] NCCL INFO     AllReduce |    15.2/  87.2 |    31.5/ 257.6 |    64.4/ 331.2 |    15.0/ 161.1 |    40.6/ 365.7 |    56.0/ 411.4 |     5.6/   0.0 |     5.6/   0.0 |    44.0/   0.0 |
+node:1007:1018 [0] NCCL INFO   Algorithm   |                    CollNetChain                  |                            NVLS                  |                        NVLSTree                  |
+node:1007:1018 [0] NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+node:1007:1018 [0] NCCL INFO  Max NThreads |              0 |              0 |            640 |              0 |              0 |            640 |              0 |              0 |            640 |
+node:1007:1018 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    25.0/ 362.6 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    25.0/ 362.6 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO     AllReduce |     0.0/   0.0 |     0.0/   0.0 |    69.2/   0.0 |     0.0/   0.0 |     0.0/   0.0 |    25.0/ 411.4 |     0.0/   0.0 |     0.0/   0.0 |    25.0/   0.0 |
+node:1007:1018 [0] NCCL INFO   Algorithm   |                             PAT                  |
+node:1007:1018 [0] NCCL INFO   Protocol    |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |             LL |          LL128 |         Simple |
+node:1007:1018 [0] NCCL INFO  Max NThreads |              0 |              0 |              0 |
+node:1007:1018 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO     AllReduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+node:1007:1018 [0] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1018 [0] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1024 [6] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1024 [6] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1023 [5] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1023 [5] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1018 [0] NCCL INFO CC Off, workFifoBytes 1048576
+node:1007:1019 [1] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+node:1007:1019 [1] NCCL INFO 32 coll channels, 32 collnet channels, 24 nvls channels, 32 p2p channels, 32 p2p channels per peer
+node:1007:1018 [0] NCCL INFO ncclCommInitAll comm 0x5a43f434f010 rank 0 nranks 8 cudaDev 0 nvmlDev 0 busId 8f000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1018 [0] NCCL INFO Init timings - ncclCommInitAll: rank 0 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.02, topo 0.18, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1020 [2] NCCL INFO ncclCommInitAll comm 0x5a43f459ff70 rank 2 nranks 8 cudaDev 2 nvmlDev 2 busId 96000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1020 [2] NCCL INFO Init timings - ncclCommInitAll: rank 2 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.00, topo 0.20, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1025 [7] NCCL INFO ncclCommInitAll comm 0x5a43f4b7a5f0 rank 7 nranks 8 cudaDev 7 nvmlDev 7 busId cc000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1025 [7] NCCL INFO Init timings - ncclCommInitAll: rank 7 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.02, topo 0.18, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1023 [5] NCCL INFO ncclCommInitAll comm 0x5a43f4922fc0 rank 5 nranks 8 cudaDev 5 nvmlDev 5 busId c5000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1023 [5] NCCL INFO Init timings - ncclCommInitAll: rank 5 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.01, topo 0.19, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1024 [6] NCCL INFO ncclCommInitAll comm 0x5a43f4a4eab0 rank 6 nranks 8 cudaDev 6 nvmlDev 6 busId cb000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1024 [6] NCCL INFO Init timings - ncclCommInitAll: rank 6 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.02, topo 0.18, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1021 [3] NCCL INFO ncclCommInitAll comm 0x5a43f46cba00 rank 3 nranks 8 cudaDev 3 nvmlDev 3 busId 97000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1021 [3] NCCL INFO Init timings - ncclCommInitAll: rank 3 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.01, topo 0.19, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1022 [4] NCCL INFO ncclCommInitAll comm 0x5a43f47f74d0 rank 4 nranks 8 cudaDev 4 nvmlDev 4 busId c4000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1022 [4] NCCL INFO Init timings - ncclCommInitAll: rank 4 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.01, topo 0.19, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1019 [1] NCCL INFO ncclCommInitAll comm 0x5a43f44747f0 rank 1 nranks 8 cudaDev 1 nvmlDev 1 busId 90000 commId 0x61d54b711e8008f5 - Init COMPLETE
+node:1007:1019 [1] NCCL INFO Init timings - ncclCommInitAll: rank 1 nranks 8 total 1.70 (kernels 0.80, alloc 0.18, bootstrap 0.00, allgathers 0.01, topo 0.19, graphs 0.02, connections 0.49, rest 0.01)
+node:1007:1007 [7] NCCL INFO Symmetric VA size=180GB
+node:1007:1007 [6] NCCL INFO Symmetric VA size=180GB
+node:1007:1007 [5] NCCL INFO Symmetric VA size=180GB
+node:1007:1007 [4] NCCL INFO Symmetric VA size=180GB
+node:1007:1007 [3] NCCL INFO Symmetric VA size=180GB
+node:1007:1007 [2] NCCL INFO Symmetric VA size=180GB
+node:1007:1007 [1] NCCL INFO Symmetric VA size=180GB
+node:1007:1007 [0] NCCL INFO Symmetric VA size=180GB
+node:1007:1046 [7] NCCL INFO Channel 00/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 01/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 02/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 01/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 03/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 02/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 04/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 00/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 05/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 01/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 06/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 02/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 03/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 04/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 07/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 05/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 02/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 03/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 08/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 06/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 08/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 04/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 09/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 05/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 05/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 09/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 08/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 10/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 10/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 09/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 08/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 11/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 06/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 11/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 09/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 07/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 12/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 08/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 10/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 07/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 12/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 10/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 08/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 13/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 09/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 11/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 11/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 08/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 10/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 12/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 12/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 14/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 11/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 14/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 09/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 09/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 13/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 12/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 11/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 13/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 15/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 10/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 10/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 14/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 14/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 16/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 13/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 16/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 11/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 11/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 15/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 15/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 17/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 14/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 17/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 12/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 12/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 16/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 16/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 18/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 15/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 13/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 17/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 13/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 18/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 17/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 14/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 16/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 14/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 19/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 18/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 19/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 16/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 17/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 15/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 20/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 18/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 15/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 19/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 20/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 17/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 18/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 16/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 20/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 21/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 21/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 19/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 16/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 17/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 21/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 22/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 18/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 19/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 22/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 20/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 17/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 19/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 20/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 18/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 22/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 23/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 18/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 20/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 21/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 19/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 21/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 23/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 21/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 19/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 23/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 22/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 22/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 22/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 20/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 20/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 24/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 23/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 23/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 23/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 24/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 21/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 25/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 24/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 24/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 24/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 24/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 21/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 26/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 22/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 25/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 25/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 25/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 25/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 22/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 26/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 25/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 23/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 26/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 23/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 27/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 27/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 26/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 24/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 26/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 26/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 28/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 28/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 27/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 27/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 24/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 29/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 29/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 25/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 27/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 27/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 25/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 30/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 30/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 28/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1053 [0] NCCL INFO Channel 31/0 : 0[0] -> 1[1] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 26/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 28/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 28/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 26/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 28/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 27/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 29/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1052 [1] NCCL INFO Channel 31/0 : 1[1] -> 2[2] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 29/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 27/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 29/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 28/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 29/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 30/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 30/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 29/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 30/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 28/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 30/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 30/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1050 [3] NCCL INFO Channel 31/0 : 3[3] -> 4[4] via P2P/direct pointer
+node:1007:1046 [7] NCCL INFO Channel 31/0 : 7[7] -> 0[0] via P2P/direct pointer
+node:1007:1047 [6] NCCL INFO Channel 31/0 : 6[6] -> 7[7] via P2P/direct pointer
+node:1007:1049 [4] NCCL INFO Channel 31/0 : 4[4] -> 5[5] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 29/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1051 [2] NCCL INFO Channel 31/0 : 2[2] -> 3[3] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 30/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Channel 31/0 : 5[5] -> 6[6] via P2P/direct pointer
+node:1007:1048 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1047 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1051 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1050 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1052 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1046 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1049 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1053 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1007 [0] NCCL INFO AllReduce: 4096 Bytes -> Algo RING proto LL channel{Lo..Hi}={0..0}
+node:1007:1055 [6] NCCL INFO NVLS comm 0x5a43f4a4eab0 headRank 6 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1057 [4] NCCL INFO NVLS comm 0x5a43f47f74d0 headRank 4 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1059 [2] NCCL INFO NVLS comm 0x5a43f459ff70 headRank 2 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1060 [1] NCCL INFO NVLS comm 0x5a43f44747f0 headRank 1 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1056 [5] NCCL INFO NVLS comm 0x5a43f4922fc0 headRank 5 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1061 [0] NCCL INFO NVLS comm 0x5a43f434f010 headRank 0 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1054 [7] NCCL INFO NVLS comm 0x5a43f4b7a5f0 headRank 7 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1058 [3] NCCL INFO NVLS comm 0x5a43f46cba00 headRank 3 nHeads 8 nvlsRanks 8 buffSize 4194304 nvlsPerRankSize 201326592 nvlsTotalSize 1610612736
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+node:1007:1007 [0] NCCL INFO AllReduce: 268435456 Bytes -> Algo NVLS proto SIMPLE channel{Lo..Hi}={0..23}

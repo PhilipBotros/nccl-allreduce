@@ -1,0 +1,38 @@
+[17:11:38] start
+[17:12:01] built
+[17:12:01] run ring_default_p8
+[17:12:02] done ring_default_p8 (0 ok, 0 wrong)
+[17:12:02] run ring_b24_t512_p8
+[17:12:03] done ring_b24_t512_p8 (0 ok, 0 wrong)
+[17:12:03] run ring_b24_t512_scalar
+[17:12:03] done ring_b24_t512_scalar (0 ok, 0 wrong)
+[17:12:03] run fused_vs_nccl_p8
+[17:12:04] done fused_vs_nccl_p8 (0 ok, 0 wrong)
+[17:12:04] run fused_vs_nccl_p4
+[17:12:05] done fused_vs_nccl_p4 (0 ok, 0 wrong)
+[17:12:05] run fused_vs_nccl_p2
+[17:12:05] done fused_vs_nccl_p2 (0 ok, 0 wrong)
+[17:12:09] run nccl_nvls_off_p8
+[17:12:09] done nccl_nvls_off_p8 (0 ok, 0 wrong)
+[17:12:09] run nccl_algo_ring_p8
+[17:12:10] done nccl_algo_ring_p8 (0 ok, 0 wrong)
+[17:12:10] run nccl_algo_tree_p8
+[17:12:10] done nccl_algo_tree_p8 (0 ok, 0 wrong)
+[17:12:11] run nccl_algo_nvls_p8
+[17:12:12] done nccl_algo_nvls_p8 (0 ok, 0 wrong)
+[17:12:12] run mpd_8
+[17:12:13] done mpd_8 (0 ok, 0 wrong)
+[17:12:13] run auto_8
+[17:12:18] done auto_8 (0 ok, 0 wrong)
+[17:12:18] run mpd_4
+[17:12:19] done mpd_4 (0 ok, 0 wrong)
+[17:12:19] run auto_4
+[17:12:20] done auto_4 (0 ok, 0 wrong)
+[17:12:20] run mpd_2
+[17:12:21] done mpd_2 (0 ok, 0 wrong)
+[17:12:21] run auto_2
+[17:12:21] done auto_2 (0 ok, 0 wrong)
+[17:12:21] run mp_nccl_nvls_off_8
+[17:12:22] done mp_nccl_nvls_off_8 (0 ok, 0 wrong)
+[17:12:24] nccl-tests build
+[17:12:53] ALL_DONE

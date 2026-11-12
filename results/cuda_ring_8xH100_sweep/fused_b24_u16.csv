@@ -1,0 +1,6 @@
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+ring_fused_b24_u16,NVIDIA H100 80GB HBM3,8,1,16777216,100,23.6,23.5,25.5,711.925,1245.868,WRONG
+ring_fused_b24_u16,NVIDIA H100 80GB HBM3,8,1,67108864,20,23.0,22.9,23.6,2915.748,5102.560,WRONG
+ring_fused_b24_u16,NVIDIA H100 80GB HBM3,8,1,268435456,20,23.3,23.1,29.2,11536.184,20188.321,WRONG
+ring_fused_b24_u16,NVIDIA H100 80GB HBM3,8,1,1073741824,20,23.1,22.9,25.0,46385.944,81175.401,WRONG
+# last error: too many resources requested for launch

@@ -1,0 +1,4 @@
+NVIDIA B200 x8 of 8, peer access enabled
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+nccl,NVIDIA B200,8,1,4096,100,100.7,95.4,106.2,0.041,0.071,ok
+# last error: no error

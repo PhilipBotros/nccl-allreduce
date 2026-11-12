@@ -1,0 +1,52 @@
+node:933:933 [7] NCCL INFO ncclOsDlopen(libnccl-env.so) failed: libnccl-env.so: cannot open shared object file: No such file or directory
+node:933:933 [7] NCCL INFO ENV/Plugin: Could not find: libnccl-env.so
+node:933:933 [7] NCCL INFO cudaDriverVersion 13000
+node:933:933 [7] NCCL INFO NCCL_SOCKET_IFNAME set by environment to lo
+node:933:933 [7] NCCL INFO NCCL_SOCKET_IFNAME set to lo
+node:933:933 [0] NCCL INFO NCCL version 2.30.7+cuda13.3
+node:933:933 [0] NCCL INFO NCCL git version HEAD a5187fa2e
+node:933:943 [0] NCCL INFO Socket handshake magic 0x564ab9f2fc4b9d6c (built-in default)
+node:933:947 [3] NCCL INFO NCCL_NET_PLUGIN set by environment to none
+
+[2026-10-31 23:50:18] node:933:947 [3] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:947 [3] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:947 [3] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:947 [3] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+
+[2026-10-31 23:50:18] node:933:950 [6] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:950 [6] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:950 [6] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:950 [6] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+
+[2026-10-31 23:50:18] node:933:945 [1] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:945 [1] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:945 [1] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:945 [1] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+
+[2026-10-31 23:50:18] node:933:944 [0] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:944 [0] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:944 [0] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:944 [0] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+
+[2026-10-31 23:50:18] node:933:949 [5] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:949 [5] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:949 [5] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:949 [5] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+
+[2026-10-31 23:50:18] node:933:948 [4] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:948 [4] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:948 [4] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:948 [4] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+
+[2026-10-31 23:50:18] node:933:951 [7] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:951 [7] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:951 [7] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:951 [7] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+
+[2026-10-31 23:50:18] node:933:946 [2] plugin/net.cc:349 (ncclNetInit) NCCL WARN Failed to initialize any NET plugin
+node:933:946 [2] NCCL INFO init.cc:475 (commAlloc) -> 5
+node:933:946 [2] NCCL INFO init.cc:1908 (ncclCommInitRankFunc) -> 5
+node:933:946 [2] NCCL INFO group.cc:79 (ncclAsyncJobMain) -> 5 [Async thread]
+node:933:933 [7] NCCL INFO group.cc:626 (groupLaunch) -> 5
+node:933:933 [7] NCCL INFO group.cc:862 (ncclGroupEndInternal) -> 5
+node:933:933 [7] NCCL INFO init.cc:2633 (ncclCommInitAll) -> 5

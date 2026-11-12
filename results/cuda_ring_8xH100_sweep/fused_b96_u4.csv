@@ -1,0 +1,6 @@
+impl,gpu,ngpus,p2p,bytes,iters,median_us,p10_us,p90_us,algbw_GBps,busbw_GBps,status
+ring_fused_b96,NVIDIA H100 80GB HBM3,8,1,16777216,100,177.2,173.6,180.8,94.664,165.662,ok
+ring_fused_b96,NVIDIA H100 80GB HBM3,8,1,67108864,20,432.2,427.7,437.7,155.289,271.756,ok
+ring_fused_b96,NVIDIA H100 80GB HBM3,8,1,268435456,20,1451.0,1446.6,1457.4,185.006,323.760,ok
+ring_fused_b96,NVIDIA H100 80GB HBM3,8,1,1073741824,20,5627.7,5616.3,5640.2,190.796,333.894,ok
+# last error: no error

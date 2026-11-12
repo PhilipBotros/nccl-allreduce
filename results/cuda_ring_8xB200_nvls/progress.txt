@@ -1,0 +1,36 @@
+[07:47:45] start
+[07:50:04] built
+[07:50:04] run ring: NCCL_ALGO=Ring
+[07:50:17]   probe: NVLS tuning: nChannels 24 chunkSize 524288 | RING proto SIMPLE channel{Lo..Hi}={0..31}
+[07:50:41]   done ring: 6 rows; 1 GB algbw 385.26 GB/s; 8 GB algbw 399.02 GB/s
+[07:51:15] run nvls24: NCCL_ALGO=NVLS
+[07:51:27]   probe: NVLS tuning: nChannels 24 chunkSize 524288 | NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+[07:51:51]   done nvls24: 6 rows; 1 GB algbw 416.25 GB/s; 8 GB algbw 473.69 GB/s
+[07:52:25] run default: NCCL_DUMMY=0
+[07:52:37]   probe: NVLS tuning: nChannels 24 chunkSize 524288 | NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+[07:53:01]   done default: 6 rows; 1 GB algbw 417.15 GB/s; 8 GB algbw 473.93 GB/s
+[07:53:35] run nvls16: NCCL_ALGO=NVLS NCCL_MAX_CTAS=16 NCCL_MAX_NCHANNELS=16
+[07:53:47]   probe: NVLS tuning: nChannels 16 chunkSize 524288 | NVLS proto SIMPLE channel{Lo..Hi}={0..15}
+[07:54:12]   done nvls16: 6 rows; 1 GB algbw 299.12 GB/s; 8 GB algbw 349.70 GB/s
+[07:54:45] run nvls32: NCCL_ALGO=NVLS NCCL_MIN_CTAS=32 NCCL_MIN_NCHANNELS=32
+[07:54:57]   probe: NVLS tuning: nChannels 32 chunkSize 524288 | NVLS proto SIMPLE channel{Lo..Hi}={0..31}
+[07:55:21]   done nvls32: 6 rows; 1 GB algbw 421.79 GB/s; 8 GB algbw 475.10 GB/s
+[07:55:55] run nvls48: NCCL_ALGO=NVLS NCCL_MIN_CTAS=48 NCCL_MIN_NCHANNELS=48
+[07:56:08]   probe: NVLS tuning: nChannels 48 chunkSize 524288 | NVLS proto SIMPLE channel{Lo..Hi}={0..47}
+[07:56:32]   done nvls48: 6 rows; 1 GB algbw 424.94 GB/s; 8 GB algbw 446.46 GB/s
+[07:57:06] run nvls64: NCCL_ALGO=NVLS NCCL_MIN_CTAS=64 NCCL_MIN_NCHANNELS=64
+[07:57:18]   probe:  | NVLS proto SIMPLE channel{Lo..Hi}={0..63}
+[07:57:43]   done nvls64: 6 rows; 1 GB algbw 433.07 GB/s; 8 GB algbw 466.96 GB/s
+[07:58:17] run nvls24_c1m: NCCL_ALGO=NVLS NCCL_NVLS_CHUNKSIZE=1048576
+[07:58:28]   probe: NVLS tuning: nChannels 24 chunkSize 1048576 | NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+[07:58:53]   done nvls24_c1m: 6 rows; 1 GB algbw 416.66 GB/s; 8 GB algbw 472.63 GB/s
+[07:59:26] run nvls32_c1m: NCCL_ALGO=NVLS NCCL_MIN_CTAS=32 NCCL_MIN_NCHANNELS=32 NCCL_NVLS_CHUNKSIZE=1048576
+[07:59:38]   probe: NVLS tuning: nChannels 32 chunkSize 1048576 | NVLS proto SIMPLE channel{Lo..Hi}={0..31}
+[08:00:03]   done nvls32_c1m: 6 rows; 1 GB algbw 420.60 GB/s; 8 GB algbw 477.81 GB/s
+[08:00:37] run ring_rep2: NCCL_ALGO=Ring
+[08:00:49]   probe: NVLS tuning: nChannels 24 chunkSize 524288 | RING proto SIMPLE channel{Lo..Hi}={0..31}
+[08:01:14]   done ring_rep2: 6 rows; 1 GB algbw 385.10 GB/s; 8 GB algbw 399.01 GB/s
+[08:01:47] run nvls24_rep2: NCCL_ALGO=NVLS
+[08:02:00]   probe: NVLS tuning: nChannels 24 chunkSize 524288 | NVLS proto SIMPLE channel{Lo..Hi}={0..23}
+[08:02:24]   done nvls24_rep2: 6 rows; 1 GB algbw 415.54 GB/s; 8 GB algbw 474.02 GB/s
+[08:02:58] all done

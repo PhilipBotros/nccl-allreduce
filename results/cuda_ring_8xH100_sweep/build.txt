@@ -1,0 +1,60 @@
+ring.cu: In function 'int main(int, char**)':
+ring.cu:282:59: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 6 [-Wformat-truncation=]
+  282 |   if (maxBlocks > 0) snprintf(suffix + strlen(suffix), 8, "_b%d", maxBlocks);
+      |                                                           ^~~~~~
+ring.cu:282:59: note: directive argument in the range [1, 2147483647]
+In function 'int snprintf(char*, size_t, const char*, ...)',
+    inlined from 'int main(int, char**)' at ring.cu:282:30:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:32: note: '__builtin___snprintf_chk' output between 4 and 13 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  
+ring.cu: In function 'int main(int, char**)':
+ring.cu:282:59: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 6 [-Wformat-truncation=]
+  282 |   if (maxBlocks > 0) snprintf(suffix + strlen(suffix), 8, "_b%d", maxBlocks);
+      |                                                           ^~~~~~
+ring.cu:282:59: note: directive argument in the range [1, 2147483647]
+In function 'int snprintf(char*, size_t, const char*, ...)',
+    inlined from 'int main(int, char**)' at ring.cu:282:30:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:32: note: '__builtin___snprintf_chk' output between 4 and 13 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  
+ring.cu: In function 'int main(int, char**)':
+ring.cu:282:59: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 6 [-Wformat-truncation=]
+  282 |   if (maxBlocks > 0) snprintf(suffix + strlen(suffix), 8, "_b%d", maxBlocks);
+      |                                                           ^~~~~~
+ring.cu:282:59: note: directive argument in the range [1, 2147483647]
+In function 'int snprintf(char*, size_t, const char*, ...)',
+    inlined from 'int main(int, char**)' at ring.cu:282:30:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:32: note: '__builtin___snprintf_chk' output between 4 and 13 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  
+ring.cu: In function 'int main(int, char**)':
+ring.cu:282:59: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 6 [-Wformat-truncation=]
+  282 |   if (maxBlocks > 0) snprintf(suffix + strlen(suffix), 8, "_b%d", maxBlocks);
+      |                                                           ^~~~~~
+ring.cu:282:59: note: directive argument in the range [1, 2147483647]
+In function 'int snprintf(char*, size_t, const char*, ...)',
+    inlined from 'int main(int, char**)' at ring.cu:282:30:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:32: note: '__builtin___snprintf_chk' output between 4 and 13 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  
+ring.cu: In function 'int main(int, char**)':
+ring.cu:282:59: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 6 [-Wformat-truncation=]
+  282 |   if (maxBlocks > 0) snprintf(suffix + strlen(suffix), 8, "_b%d", maxBlocks);
+      |                                                           ^~~~~~
+ring.cu:282:59: note: directive argument in the range [1, 2147483647]
+In function 'int snprintf(char*, size_t, const char*, ...)',
+    inlined from 'int main(int, char**)' at ring.cu:282:30:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:32: note: '__builtin___snprintf_chk' output between 4 and 13 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  
+ring.cu: In function 'int main(int, char**)':
+ring.cu:282:59: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 6 [-Wformat-truncation=]
+  282 |   if (maxBlocks > 0) snprintf(suffix + strlen(suffix), 8, "_b%d", maxBlocks);
+      |                                                           ^~~~~~
+ring.cu:282:59: note: directive argument in the range [1, 2147483647]
+In function 'int snprintf(char*, size_t, const char*, ...)',
+    inlined from 'int main(int, char**)' at ring.cu:282:30:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:32: note: '__builtin___snprintf_chk' output between 4 and 13 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  

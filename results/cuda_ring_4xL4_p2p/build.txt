@@ -1,0 +1,45 @@
+ring.cu: In function 'int main(int, char**)':
+ring.cu:282:59: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 6 [-Wformat-truncation=]
+  282 |   if (maxBlocks > 0) snprintf(suffix + strlen(suffix), 8, "_b%d", maxBlocks);
+      |                                                           ^~~~~~
+ring.cu:282:59: note: directive argument in the range [1, 2147483647]
+In function 'int snprintf(char*, size_t, const char*, ...)',
+    inlined from 'int main(int, char**)' at ring.cu:282:30:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:32: note: '__builtin___snprintf_chk' output between 4 and 13 bytes into a destination of size 8
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |        ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                  
+make: Entering directory '/work/nccl-tests'
+make -C src build BUILDDIR=/work/nccl-tests/build
+make[1]: Entering directory '/work/nccl-tests/src'
+make[2]: Entering directory '/work/nccl-tests/os'
+Compiling  timer.cc                            > /work/nccl-tests/build/timer.o
+Compiling  linux.cc                            > /work/nccl-tests/build/os/linux.o
+Compiling /work/nccl-tests/build/verifiable/verifiable.o
+Compiling  all_reduce.cu                       > /work/nccl-tests/build/all_reduce.o
+Creating archive /work/nccl-tests/build/os/linux.o   > /work/nccl-tests/build/os/libnccl_test_os.a
+Compiling  common.cu                           > /work/nccl-tests/build/common.o
+make[2]: Leaving directory '/work/nccl-tests/os'
+Compiling  all_gather.cu                       > /work/nccl-tests/build/all_gather.o
+Compiling  broadcast.cu                        > /work/nccl-tests/build/broadcast.o
+Compiling  reduce_scatter.cu                   > /work/nccl-tests/build/reduce_scatter.o
+Compiling  reduce.cu                           > /work/nccl-tests/build/reduce.o
+Compiling  alltoall.cu                         > /work/nccl-tests/build/alltoall.o
+Compiling  alltoallv.cu                        > /work/nccl-tests/build/alltoallv.o
+Compiling  scatter.cu                          > /work/nccl-tests/build/scatter.o
+Compiling  gather.cu                           > /work/nccl-tests/build/gather.o
+Compiling  sendrecv.cu                         > /work/nccl-tests/build/sendrecv.o
+Compiling  hypercube.cu                        > /work/nccl-tests/build/hypercube.o
+Compiling  util.cu                             > /work/nccl-tests/build/util.o
+Linking  /work/nccl-tests/build/all_reduce.o > /work/nccl-tests/build/all_reduce_perf
+Linking  /work/nccl-tests/build/all_gather.o > /work/nccl-tests/build/all_gather_perf
+Linking  /work/nccl-tests/build/broadcast.o  > /work/nccl-tests/build/broadcast_perf
+Linking  /work/nccl-tests/build/reduce_scatter.o > /work/nccl-tests/build/reduce_scatter_perf
+Linking  /work/nccl-tests/build/reduce.o     > /work/nccl-tests/build/reduce_perf
+Linking  /work/nccl-tests/build/alltoallv.o  > /work/nccl-tests/build/alltoallv_perf
+Linking  /work/nccl-tests/build/scatter.o    > /work/nccl-tests/build/scatter_perf
+Linking  /work/nccl-tests/build/gather.o     > /work/nccl-tests/build/gather_perf
+Linking  /work/nccl-tests/build/sendrecv.o   > /work/nccl-tests/build/sendrecv_perf
+Linking  /work/nccl-tests/build/hypercube.o  > /work/nccl-tests/build/hypercube_perf
+Linking  /work/nccl-tests/build/alltoall.o   > /work/nccl-tests/build/alltoall_perf
+make[1]: Leaving directory '/work/nccl-tests/src'
+make: Leaving directory '/work/nccl-tests'

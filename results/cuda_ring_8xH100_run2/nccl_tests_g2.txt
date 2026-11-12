@@ -1,0 +1,27 @@
+# nccl-tests version 2.21.1 (afd59ab) nccl-headers=23007 nccl-library=23007
+# Collective test starting: all_reduce_perf
+# nThread 1 nGpus 2 minBytes 4096 maxBytes 1073741824 step: 4(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid   2776 on node device  0 [0000:04:00] NVIDIA H100 80GB HBM3
+#  Rank  1 Group  0 Pid   2776 on node device  1 [0000:05:00] NVIDIA H100 80GB HBM3
+#
+#                                                              out-of-place                       in-place
+#       size         count      type   redop    root     time   algbw   busbw  #wrong     time   algbw   busbw  #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)             (us)  (GB/s)  (GB/s)        
+        4096          1024     float     sum      -1    14.82    0.28    0.28       0    13.55    0.30    0.30       0
+       16384          4096     float     sum      -1    12.79    1.28    1.28       0    12.75    1.29    1.29       0
+       65536         16384     float     sum      -1    13.43    4.88    4.88       0    14.14    4.63    4.63       0
+      262144         65536     float     sum      -1    15.81   16.59   16.59       0    14.89   17.60   17.60       0
+     1048576        262144     float     sum      -1    15.18   69.06   69.06       0    15.53   67.53   67.53       0
+     4194304       1048576     float     sum      -1    35.96  116.65  116.65       0    35.15  119.34  119.34       0
+    16777216       4194304     float     sum      -1    79.25  211.70  211.70       0    77.17  217.40  217.40       0
+    67108864      16777216     float     sum      -1   248.83  269.70  269.70       0   248.82  269.71  269.71       0
+   268435456      67108864     float     sum      -1   891.87  300.98  300.98       0   892.66  300.71  300.71       0
+  1073741824     268435456     float     sum      -1  3254.87  329.89  329.89       0  3227.65  332.67  332.67       0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 132.609 
+#
+# Collective test concluded: all_reduce_perf
+#
+

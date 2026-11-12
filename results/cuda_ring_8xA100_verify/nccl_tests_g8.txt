@@ -1,0 +1,33 @@
+# nccl-tests version 2.21.1 (afd59ab) nccl-headers=23007 nccl-library=23007
+# Collective test starting: all_reduce_perf
+# nThread 1 nGpus 8 minBytes 4096 maxBytes 1073741824 step: 4(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid   7099 on node device  0 [0000:10:1c] NVIDIA A100-SXM4-40GB
+#  Rank  1 Group  0 Pid   7099 on node device  1 [0000:10:1d] NVIDIA A100-SXM4-40GB
+#  Rank  2 Group  0 Pid   7099 on node device  2 [0000:20:1c] NVIDIA A100-SXM4-40GB
+#  Rank  3 Group  0 Pid   7099 on node device  3 [0000:20:1d] NVIDIA A100-SXM4-40GB
+#  Rank  4 Group  0 Pid   7099 on node device  4 [0000:90:1c] NVIDIA A100-SXM4-40GB
+#  Rank  5 Group  0 Pid   7099 on node device  5 [0000:90:1d] NVIDIA A100-SXM4-40GB
+#  Rank  6 Group  0 Pid   7099 on node device  6 [0000:a0:1c] NVIDIA A100-SXM4-40GB
+#  Rank  7 Group  0 Pid   7099 on node device  7 [0000:a0:1d] NVIDIA A100-SXM4-40GB
+#
+#                                                              out-of-place                       in-place
+#       size         count      type   redop    root     time   algbw   busbw  #wrong     time   algbw   busbw  #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)             (us)  (GB/s)  (GB/s)        
+        4096          1024     float     sum      -1    62.72    0.07    0.11       0    64.15    0.06    0.11       0
+       16384          4096     float     sum      -1    62.65    0.26    0.46       0    63.64    0.26    0.45       0
+       65536         16384     float     sum      -1    64.99    1.01    1.76       0    64.30    1.02    1.78       0
+      262144         65536     float     sum      -1    67.15    3.90    6.83       0    67.16    3.90    6.83       0
+     1048576        262144     float     sum      -1    71.30   14.71   25.74       0    71.80   14.60   25.56       0
+     4194304       1048576     float     sum      -1    95.63   43.86   76.76       0    94.42   44.42   77.74       0
+    16777216       4194304     float     sum      -1   230.07   72.92  127.61       0   229.15   73.22  128.13       0
+    67108864      16777216     float     sum      -1   615.17  109.09  190.91       0   614.22  109.26  191.20       0
+   268435456      67108864     float     sum      -1  2241.33  119.77  209.59       0  2243.40  119.66  209.40       0
+  1073741824     268435456     float     sum      -1  8261.70  129.97  227.44       0  8266.88  129.88  227.30       0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 86.7859 
+#
+# Collective test concluded: all_reduce_perf
+#
+

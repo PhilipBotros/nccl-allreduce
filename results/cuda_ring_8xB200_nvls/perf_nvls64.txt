@@ -1,0 +1,29 @@
+# nccl-tests version 2.21.1 (afd59ab) nccl-headers=23007 nccl-library=23007
+# Collective test starting: all_reduce_perf
+# nThread 1 nGpus 8 minBytes 268435456 maxBytes 8589934592 step: 2(factor) warmup iters: 5 iters: 20 agg iters: 1 validation: 1 graph: 0 unalign: 0
+#
+# Using devices
+#  Rank  0 Group  0 Pid   3287 on node device  0 [0000:8f:00] NVIDIA B200
+#  Rank  1 Group  0 Pid   3287 on node device  1 [0000:90:00] NVIDIA B200
+#  Rank  2 Group  0 Pid   3287 on node device  2 [0000:96:00] NVIDIA B200
+#  Rank  3 Group  0 Pid   3287 on node device  3 [0000:97:00] NVIDIA B200
+#  Rank  4 Group  0 Pid   3287 on node device  4 [0000:c4:00] NVIDIA B200
+#  Rank  5 Group  0 Pid   3287 on node device  5 [0000:c5:00] NVIDIA B200
+#  Rank  6 Group  0 Pid   3287 on node device  6 [0000:cb:00] NVIDIA B200
+#  Rank  7 Group  0 Pid   3287 on node device  7 [0000:cc:00] NVIDIA B200
+#
+#                                                              out-of-place                       in-place
+#       size         count      type   redop    root     time   algbw   busbw  #wrong     time   algbw   busbw  #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)             (us)  (GB/s)  (GB/s)        
+   268435456      67108864     float     sum      -1   704.55  381.00  666.76       0   703.96  381.32  667.32       0
+   536870912     134217728     float     sum      -1  1308.54  410.28  717.99       0  1307.12  410.73  718.77       0
+  1073741824     268435456     float     sum      -1  2479.35  433.07  757.88       0  2488.67  431.45  755.04       0
+  2147483648     536870912     float     sum      -1  4780.06  449.26  786.20       0  4773.22  449.90  787.33       0
+  4294967296    1073741824     float     sum      -1  9328.75  460.40  805.70       0  9331.22  460.28  805.49       0
+  8589934592    2147483648     float     sum      -1  18395.6  466.96  817.17       0  18544.9  463.20  810.59       0
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 758.021 
+#
+# Collective test concluded: all_reduce_perf
+#
+
