@@ -1,6 +1,6 @@
 # nccl-allreduce
 
-Code and measurements for the blog post ["Rebuilding NCCL's all-reduce: a CUDA worklog from T4s to B200s"](https://philipbotros.github.io/2026/11/18/all-reduce-by-hand.html).
+Code and measurements for the blog post ["All-reduce by hand: chasing NCCL from T4s to B200s"](https://philipbotros.github.io/2026/11/18/all-reduce-by-hand.html).
 
 Everything here runs inside one machine. The benchmarks compare hand-written all-reduce implementations against NCCL on the same harness.
 
